@@ -1,0 +1,6251 @@
+[
+  {
+    "start": "PACY",
+    "target": "MIPS",
+    "optimal": 4,
+    "optimalPath": [
+      "PACY",
+      "PACS",
+      "PAPS",
+      "MAPS",
+      "MIPS"
+    ]
+  },
+  {
+    "start": "HATE",
+    "target": "LINN",
+    "optimal": 4,
+    "optimalPath": [
+      "HATE",
+      "LATE",
+      "LITE",
+      "LINE",
+      "LINN"
+    ]
+  },
+  {
+    "start": "TALK",
+    "target": "HERE",
+    "optimal": 4,
+    "optimalPath": [
+      "TALK",
+      "TALE",
+      "HALE",
+      "HARE",
+      "HERE"
+    ]
+  },
+  {
+    "start": "COVE",
+    "target": "LIRE",
+    "optimal": 3,
+    "optimalPath": [
+      "COVE",
+      "LOVE",
+      "LIVE",
+      "LIRE"
+    ]
+  },
+  {
+    "start": "PORK",
+    "target": "PELE",
+    "optimal": 3,
+    "optimalPath": [
+      "PORK",
+      "PORE",
+      "POLE",
+      "PELE"
+    ]
+  },
+  {
+    "start": "MEWS",
+    "target": "OWES",
+    "optimal": 5,
+    "optimalPath": [
+      "MEWS",
+      "PEWS",
+      "PEES",
+      "PYES",
+      "OYES",
+      "OWES"
+    ]
+  },
+  {
+    "start": "GHAT",
+    "target": "KALE",
+    "optimal": 6,
+    "optimalPath": [
+      "GHAT",
+      "PHAT",
+      "PEAT",
+      "PELT",
+      "PELE",
+      "PALE",
+      "KALE"
+    ]
+  },
+  {
+    "start": "MERE",
+    "target": "KOOK",
+    "optimal": 5,
+    "optimalPath": [
+      "MERE",
+      "MERK",
+      "BERK",
+      "BORK",
+      "BOOK",
+      "KOOK"
+    ]
+  },
+  {
+    "start": "CURS",
+    "target": "WELL",
+    "optimal": 4,
+    "optimalPath": [
+      "CURS",
+      "CURL",
+      "CULL",
+      "CELL",
+      "WELL"
+    ]
+  },
+  {
+    "start": "DYES",
+    "target": "MULL",
+    "optimal": 4,
+    "optimalPath": [
+      "DYES",
+      "DUES",
+      "DUEL",
+      "DULL",
+      "MULL"
+    ]
+  },
+  {
+    "start": "HUED",
+    "target": "DAHS",
+    "optimal": 4,
+    "optimalPath": [
+      "HUED",
+      "HUES",
+      "HAES",
+      "HAHS",
+      "DAHS"
+    ]
+  },
+  {
+    "start": "TIKE",
+    "target": "BRAD",
+    "optimal": 6,
+    "optimalPath": [
+      "TIKE",
+      "TOKE",
+      "TOLE",
+      "TOLD",
+      "TOAD",
+      "TRAD",
+      "BRAD"
+    ]
+  },
+  {
+    "start": "POME",
+    "target": "BUTS",
+    "optimal": 4,
+    "optimalPath": [
+      "POME",
+      "POMS",
+      "POTS",
+      "BOTS",
+      "BUTS"
+    ]
+  },
+  {
+    "start": "ACED",
+    "target": "TONY",
+    "optimal": 6,
+    "optimalPath": [
+      "ACED",
+      "ACES",
+      "AYES",
+      "TYES",
+      "TOES",
+      "TONS",
+      "TONY"
+    ]
+  },
+  {
+    "start": "MALL",
+    "target": "GEED",
+    "optimal": 4,
+    "optimalPath": [
+      "MALL",
+      "MELL",
+      "MELD",
+      "GELD",
+      "GEED"
+    ]
+  },
+  {
+    "start": "PUCE",
+    "target": "DOWS",
+    "optimal": 5,
+    "optimalPath": [
+      "PUCE",
+      "PURE",
+      "DURE",
+      "DORE",
+      "DORS",
+      "DOWS"
+    ]
+  },
+  {
+    "start": "HAZE",
+    "target": "NOSE",
+    "optimal": 4,
+    "optimalPath": [
+      "HAZE",
+      "RAZE",
+      "RASE",
+      "ROSE",
+      "NOSE"
+    ]
+  },
+  {
+    "start": "DRAT",
+    "target": "GUFF",
+    "optimal": 6,
+    "optimalPath": [
+      "DRAT",
+      "DOAT",
+      "COAT",
+      "COFT",
+      "COFF",
+      "CUFF",
+      "GUFF"
+    ]
+  },
+  {
+    "start": "HAYS",
+    "target": "SKIP",
+    "optimal": 6,
+    "optimalPath": [
+      "HAYS",
+      "SAYS",
+      "SANS",
+      "SAND",
+      "SAID",
+      "SKID",
+      "SKIP"
+    ]
+  },
+  {
+    "start": "BONK",
+    "target": "HARM",
+    "optimal": 4,
+    "optimalPath": [
+      "BONK",
+      "HONK",
+      "HANK",
+      "HARK",
+      "HARM"
+    ]
+  },
+  {
+    "start": "CRAP",
+    "target": "FETE",
+    "optimal": 7,
+    "optimalPath": [
+      "CRAP",
+      "FRAP",
+      "FRAT",
+      "FEAT",
+      "FEET",
+      "FEES",
+      "FETS",
+      "FETE"
+    ]
+  },
+  {
+    "start": "KHAT",
+    "target": "DAME",
+    "optimal": 7,
+    "optimalPath": [
+      "KHAT",
+      "GHAT",
+      "GOAT",
+      "DOAT",
+      "DOST",
+      "DOSE",
+      "DOME",
+      "DAME"
+    ]
+  },
+  {
+    "start": "MUST",
+    "target": "MOIL",
+    "optimal": 4,
+    "optimalPath": [
+      "MUST",
+      "MOST",
+      "MOLT",
+      "MOLL",
+      "MOIL"
+    ]
+  },
+  {
+    "start": "HOOD",
+    "target": "DINK",
+    "optimal": 5,
+    "optimalPath": [
+      "HOOD",
+      "FOOD",
+      "FOND",
+      "FIND",
+      "FINK",
+      "DINK"
+    ]
+  },
+  {
+    "start": "ANTA",
+    "target": "BUDS",
+    "optimal": 5,
+    "optimalPath": [
+      "ANTA",
+      "ANTS",
+      "ANDS",
+      "AIDS",
+      "BIDS",
+      "BUDS"
+    ]
+  },
+  {
+    "start": "PACT",
+    "target": "SORD",
+    "optimal": 4,
+    "optimalPath": [
+      "PACT",
+      "PART",
+      "PORT",
+      "SORT",
+      "SORD"
+    ]
+  },
+  {
+    "start": "VEEP",
+    "target": "YIDS",
+    "optimal": 4,
+    "optimalPath": [
+      "VEEP",
+      "VEES",
+      "VIES",
+      "VIDS",
+      "YIDS"
+    ]
+  },
+  {
+    "start": "HALL",
+    "target": "TOSS",
+    "optimal": 5,
+    "optimalPath": [
+      "HALL",
+      "TALL",
+      "TALK",
+      "TASK",
+      "TASS",
+      "TOSS"
+    ]
+  },
+  {
+    "start": "MARK",
+    "target": "BICE",
+    "optimal": 4,
+    "optimalPath": [
+      "MARK",
+      "MIRK",
+      "MIRE",
+      "MICE",
+      "BICE"
+    ]
+  },
+  {
+    "start": "ROVE",
+    "target": "CARP",
+    "optimal": 4,
+    "optimalPath": [
+      "ROVE",
+      "RAVE",
+      "CAVE",
+      "CARE",
+      "CARP"
+    ]
+  },
+  {
+    "start": "FRAG",
+    "target": "VOLE",
+    "optimal": 6,
+    "optimalPath": [
+      "FRAG",
+      "BRAG",
+      "BRAT",
+      "BOAT",
+      "BOLT",
+      "BOLE",
+      "VOLE"
+    ]
+  },
+  {
+    "start": "SUNK",
+    "target": "PULE",
+    "optimal": 4,
+    "optimalPath": [
+      "SUNK",
+      "SUCK",
+      "PUCK",
+      "PUCE",
+      "PULE"
+    ]
+  },
+  {
+    "start": "RAWS",
+    "target": "ALAN",
+    "optimal": 6,
+    "optimalPath": [
+      "RAWS",
+      "SAWS",
+      "SALS",
+      "AALS",
+      "ALLS",
+      "ALAS",
+      "ALAN"
+    ]
+  },
+  {
+    "start": "DOER",
+    "target": "MACE",
+    "optimal": 5,
+    "optimalPath": [
+      "DOER",
+      "DOES",
+      "DOCS",
+      "MOCS",
+      "MACS",
+      "MACE"
+    ]
+  },
+  {
+    "start": "MOGS",
+    "target": "DICE",
+    "optimal": 4,
+    "optimalPath": [
+      "MOGS",
+      "MIGS",
+      "MICS",
+      "MICE",
+      "DICE"
+    ]
+  },
+  {
+    "start": "TINY",
+    "target": "DOGE",
+    "optimal": 4,
+    "optimalPath": [
+      "TINY",
+      "TONY",
+      "TONE",
+      "DONE",
+      "DOGE"
+    ]
+  },
+  {
+    "start": "BUTE",
+    "target": "LIBS",
+    "optimal": 4,
+    "optimalPath": [
+      "BUTE",
+      "LUTE",
+      "LITE",
+      "LITS",
+      "LIBS"
+    ]
+  },
+  {
+    "start": "DURE",
+    "target": "HECK",
+    "optimal": 4,
+    "optimalPath": [
+      "DURE",
+      "DUCE",
+      "DUCK",
+      "HUCK",
+      "HECK"
+    ]
+  },
+  {
+    "start": "LYRE",
+    "target": "JAPE",
+    "optimal": 4,
+    "optimalPath": [
+      "LYRE",
+      "TYRE",
+      "TARE",
+      "TAPE",
+      "JAPE"
+    ]
+  },
+  {
+    "start": "OXES",
+    "target": "SORA",
+    "optimal": 6,
+    "optimalPath": [
+      "OXES",
+      "ORES",
+      "TRES",
+      "TOES",
+      "TOEA",
+      "TORA",
+      "SORA"
+    ]
+  },
+  {
+    "start": "DELS",
+    "target": "ANIS",
+    "optimal": 5,
+    "optimalPath": [
+      "DELS",
+      "DEES",
+      "DYES",
+      "AYES",
+      "ANES",
+      "ANIS"
+    ]
+  },
+  {
+    "start": "DRAB",
+    "target": "ZINS",
+    "optimal": 6,
+    "optimalPath": [
+      "DRAB",
+      "DRAG",
+      "BRAG",
+      "BRAS",
+      "BIAS",
+      "BINS",
+      "ZINS"
+    ]
+  },
+  {
+    "start": "GOAD",
+    "target": "FIGS",
+    "optimal": 5,
+    "optimalPath": [
+      "GOAD",
+      "GOAS",
+      "GODS",
+      "GIDS",
+      "GIGS",
+      "FIGS"
+    ]
+  },
+  {
+    "start": "EVES",
+    "target": "SEAM",
+    "optimal": 6,
+    "optimalPath": [
+      "EVES",
+      "EKES",
+      "OKES",
+      "OKAS",
+      "SKAS",
+      "SEAS",
+      "SEAM"
+    ]
+  },
+  {
+    "start": "WHIN",
+    "target": "TOWN",
+    "optimal": 5,
+    "optimalPath": [
+      "WHIN",
+      "THIN",
+      "TAIN",
+      "TARN",
+      "TORN",
+      "TOWN"
+    ]
+  },
+  {
+    "start": "HUTS",
+    "target": "CONE",
+    "optimal": 4,
+    "optimalPath": [
+      "HUTS",
+      "HOTS",
+      "COTS",
+      "COTE",
+      "CONE"
+    ]
+  },
+  {
+    "start": "GRAD",
+    "target": "WOOL",
+    "optimal": 4,
+    "optimalPath": [
+      "GRAD",
+      "GOAD",
+      "GOOD",
+      "WOOD",
+      "WOOL"
+    ]
+  },
+  {
+    "start": "CURB",
+    "target": "TACT",
+    "optimal": 4,
+    "optimalPath": [
+      "CURB",
+      "CARB",
+      "CART",
+      "TART",
+      "TACT"
+    ]
+  },
+  {
+    "start": "POKY",
+    "target": "TOWS",
+    "optimal": 4,
+    "optimalPath": [
+      "POKY",
+      "COKY",
+      "COWY",
+      "COWS",
+      "TOWS"
+    ]
+  },
+  {
+    "start": "POLO",
+    "target": "RINK",
+    "optimal": 5,
+    "optimalPath": [
+      "POLO",
+      "POLY",
+      "PILY",
+      "PINY",
+      "PINK",
+      "RINK"
+    ]
+  },
+  {
+    "start": "SILT",
+    "target": "FIGS",
+    "optimal": 4,
+    "optimalPath": [
+      "SILT",
+      "TILT",
+      "TILS",
+      "FILS",
+      "FIGS"
+    ]
+  },
+  {
+    "start": "GADS",
+    "target": "YARN",
+    "optimal": 4,
+    "optimalPath": [
+      "GADS",
+      "TADS",
+      "TARS",
+      "TARN",
+      "YARN"
+    ]
+  },
+  {
+    "start": "BURN",
+    "target": "GILD",
+    "optimal": 4,
+    "optimalPath": [
+      "BURN",
+      "BURD",
+      "BIRD",
+      "GIRD",
+      "GILD"
+    ]
+  },
+  {
+    "start": "KATS",
+    "target": "TOLA",
+    "optimal": 5,
+    "optimalPath": [
+      "KATS",
+      "KATA",
+      "KAPA",
+      "TAPA",
+      "TALA",
+      "TOLA"
+    ]
+  },
+  {
+    "start": "DECK",
+    "target": "CARE",
+    "optimal": 5,
+    "optimalPath": [
+      "DECK",
+      "PECK",
+      "PACK",
+      "PACE",
+      "PARE",
+      "CARE"
+    ]
+  },
+  {
+    "start": "COVE",
+    "target": "CAPS",
+    "optimal": 3,
+    "optimalPath": [
+      "COVE",
+      "CAVE",
+      "CAPE",
+      "CAPS"
+    ]
+  },
+  {
+    "start": "DOSE",
+    "target": "CLAN",
+    "optimal": 6,
+    "optimalPath": [
+      "DOSE",
+      "DORE",
+      "CORE",
+      "CORN",
+      "COON",
+      "CLON",
+      "CLAN"
+    ]
+  },
+  {
+    "start": "YOWL",
+    "target": "LOON",
+    "optimal": 4,
+    "optimalPath": [
+      "YOWL",
+      "YOWE",
+      "LOWE",
+      "LOWN",
+      "LOON"
+    ]
+  },
+  {
+    "start": "PONE",
+    "target": "BURN",
+    "optimal": 4,
+    "optimalPath": [
+      "PONE",
+      "PORE",
+      "PORN",
+      "BORN",
+      "BURN"
+    ]
+  },
+  {
+    "start": "YEAN",
+    "target": "IRES",
+    "optimal": 5,
+    "optimalPath": [
+      "YEAN",
+      "YEAS",
+      "TEAS",
+      "TEES",
+      "TRES",
+      "IRES"
+    ]
+  },
+  {
+    "start": "FEDS",
+    "target": "DUFF",
+    "optimal": 6,
+    "optimalPath": [
+      "FEDS",
+      "GEDS",
+      "GELS",
+      "GULS",
+      "GULF",
+      "GUFF",
+      "DUFF"
+    ]
+  },
+  {
+    "start": "YIPS",
+    "target": "WEAR",
+    "optimal": 4,
+    "optimalPath": [
+      "YIPS",
+      "YEPS",
+      "YEAS",
+      "YEAR",
+      "WEAR"
+    ]
+  },
+  {
+    "start": "BUST",
+    "target": "WOOD",
+    "optimal": 5,
+    "optimalPath": [
+      "BUST",
+      "MUST",
+      "MOST",
+      "MOOT",
+      "MOOD",
+      "WOOD"
+    ]
+  },
+  {
+    "start": "LACE",
+    "target": "RAIS",
+    "optimal": 4,
+    "optimalPath": [
+      "LACE",
+      "LACS",
+      "LAPS",
+      "RAPS",
+      "RAIS"
+    ]
+  },
+  {
+    "start": "SADI",
+    "target": "PACT",
+    "optimal": 4,
+    "optimalPath": [
+      "SADI",
+      "PADI",
+      "PADS",
+      "PACS",
+      "PACT"
+    ]
+  },
+  {
+    "start": "DAIS",
+    "target": "LUBE",
+    "optimal": 5,
+    "optimalPath": [
+      "DAIS",
+      "DADS",
+      "LADS",
+      "LADE",
+      "LUDE",
+      "LUBE"
+    ]
+  },
+  {
+    "start": "ARKS",
+    "target": "PUBS",
+    "optimal": 4,
+    "optimalPath": [
+      "ARKS",
+      "AUKS",
+      "SUKS",
+      "SUBS",
+      "PUBS"
+    ]
+  },
+  {
+    "start": "BOTA",
+    "target": "BRAE",
+    "optimal": 4,
+    "optimalPath": [
+      "BOTA",
+      "BOTS",
+      "BOAS",
+      "BRAS",
+      "BRAE"
+    ]
+  },
+  {
+    "start": "CEPS",
+    "target": "GILL",
+    "optimal": 5,
+    "optimalPath": [
+      "CEPS",
+      "CELS",
+      "BELS",
+      "BELL",
+      "BILL",
+      "GILL"
+    ]
+  },
+  {
+    "start": "SUQS",
+    "target": "DOLS",
+    "optimal": 4,
+    "optimalPath": [
+      "SUQS",
+      "SUDS",
+      "SODS",
+      "SOLS",
+      "DOLS"
+    ]
+  },
+  {
+    "start": "HUMS",
+    "target": "SETS",
+    "optimal": 3,
+    "optimalPath": [
+      "HUMS",
+      "HUTS",
+      "HETS",
+      "SETS"
+    ]
+  },
+  {
+    "start": "HUMP",
+    "target": "HAPS",
+    "optimal": 3,
+    "optimalPath": [
+      "HUMP",
+      "HUMS",
+      "HAMS",
+      "HAPS"
+    ]
+  },
+  {
+    "start": "PROP",
+    "target": "PURR",
+    "optimal": 6,
+    "optimalPath": [
+      "PROP",
+      "PROS",
+      "POOS",
+      "PONS",
+      "PUNS",
+      "PURS",
+      "PURR"
+    ]
+  },
+  {
+    "start": "NEBS",
+    "target": "SOPS",
+    "optimal": 3,
+    "optimalPath": [
+      "NEBS",
+      "NOBS",
+      "SOBS",
+      "SOPS"
+    ]
+  },
+  {
+    "start": "DURE",
+    "target": "POND",
+    "optimal": 4,
+    "optimalPath": [
+      "DURE",
+      "DORE",
+      "PORE",
+      "PONE",
+      "POND"
+    ]
+  },
+  {
+    "start": "PIES",
+    "target": "DART",
+    "optimal": 4,
+    "optimalPath": [
+      "PIES",
+      "DIES",
+      "DIET",
+      "DIRT",
+      "DART"
+    ]
+  },
+  {
+    "start": "WINE",
+    "target": "BUNN",
+    "optimal": 4,
+    "optimalPath": [
+      "WINE",
+      "BINE",
+      "BINT",
+      "BUNT",
+      "BUNN"
+    ]
+  },
+  {
+    "start": "HURL",
+    "target": "DUNT",
+    "optimal": 3,
+    "optimalPath": [
+      "HURL",
+      "HURT",
+      "HUNT",
+      "DUNT"
+    ]
+  },
+  {
+    "start": "NINE",
+    "target": "BASK",
+    "optimal": 4,
+    "optimalPath": [
+      "NINE",
+      "BINE",
+      "BISE",
+      "BASE",
+      "BASK"
+    ]
+  },
+  {
+    "start": "PONG",
+    "target": "TUNE",
+    "optimal": 3,
+    "optimalPath": [
+      "PONG",
+      "PUNG",
+      "TUNG",
+      "TUNE"
+    ]
+  },
+  {
+    "start": "JEES",
+    "target": "WENT",
+    "optimal": 3,
+    "optimalPath": [
+      "JEES",
+      "WEES",
+      "WENS",
+      "WENT"
+    ]
+  },
+  {
+    "start": "LIME",
+    "target": "KORS",
+    "optimal": 4,
+    "optimalPath": [
+      "LIME",
+      "LIRE",
+      "LORE",
+      "KORE",
+      "KORS"
+    ]
+  },
+  {
+    "start": "LENS",
+    "target": "BAWL",
+    "optimal": 5,
+    "optimalPath": [
+      "LENS",
+      "WENS",
+      "WANS",
+      "WAWS",
+      "WAWL",
+      "BAWL"
+    ]
+  },
+  {
+    "start": "RAMS",
+    "target": "PONG",
+    "optimal": 4,
+    "optimalPath": [
+      "RAMS",
+      "ROMS",
+      "POMS",
+      "PONS",
+      "PONG"
+    ]
+  },
+  {
+    "start": "DEAD",
+    "target": "LEYS",
+    "optimal": 3,
+    "optimalPath": [
+      "DEAD",
+      "LEAD",
+      "LEAS",
+      "LEYS"
+    ]
+  },
+  {
+    "start": "DURR",
+    "target": "BUMS",
+    "optimal": 3,
+    "optimalPath": [
+      "DURR",
+      "BURR",
+      "BURS",
+      "BUMS"
+    ]
+  },
+  {
+    "start": "ROIL",
+    "target": "DUBS",
+    "optimal": 5,
+    "optimalPath": [
+      "ROIL",
+      "ROTL",
+      "ROTS",
+      "ROBS",
+      "RUBS",
+      "DUBS"
+    ]
+  },
+  {
+    "start": "SURA",
+    "target": "PATE",
+    "optimal": 4,
+    "optimalPath": [
+      "SURA",
+      "SURE",
+      "PURE",
+      "PARE",
+      "PATE"
+    ]
+  },
+  {
+    "start": "TAIN",
+    "target": "DATE",
+    "optimal": 4,
+    "optimalPath": [
+      "TAIN",
+      "TARN",
+      "TARE",
+      "DARE",
+      "DATE"
+    ]
+  },
+  {
+    "start": "SLIM",
+    "target": "WAIN",
+    "optimal": 4,
+    "optimalPath": [
+      "SLIM",
+      "SHIM",
+      "SHIN",
+      "WHIN",
+      "WAIN"
+    ]
+  },
+  {
+    "start": "EIDE",
+    "target": "PIES",
+    "optimal": 4,
+    "optimalPath": [
+      "EIDE",
+      "VIDE",
+      "VIDS",
+      "VIES",
+      "PIES"
+    ]
+  },
+  {
+    "start": "SOUL",
+    "target": "JESS",
+    "optimal": 5,
+    "optimalPath": [
+      "SOUL",
+      "SOUS",
+      "SOBS",
+      "JOBS",
+      "JOSS",
+      "JESS"
+    ]
+  },
+  {
+    "start": "GRID",
+    "target": "LOUR",
+    "optimal": 5,
+    "optimalPath": [
+      "GRID",
+      "GRAD",
+      "GOAD",
+      "LOAD",
+      "LOUD",
+      "LOUR"
+    ]
+  },
+  {
+    "start": "LOWE",
+    "target": "WAYS",
+    "optimal": 4,
+    "optimalPath": [
+      "LOWE",
+      "LOWS",
+      "WOWS",
+      "WAWS",
+      "WAYS"
+    ]
+  },
+  {
+    "start": "SOMA",
+    "target": "GOOS",
+    "optimal": 4,
+    "optimalPath": [
+      "SOMA",
+      "SODA",
+      "SODS",
+      "GODS",
+      "GOOS"
+    ]
+  },
+  {
+    "start": "MOIL",
+    "target": "OLES",
+    "optimal": 7,
+    "optimalPath": [
+      "MOIL",
+      "MOLL",
+      "MILL",
+      "MILS",
+      "OILS",
+      "OWLS",
+      "OWES",
+      "OLES"
+    ]
+  },
+  {
+    "start": "MEAT",
+    "target": "COSY",
+    "optimal": 4,
+    "optimalPath": [
+      "MEAT",
+      "MOAT",
+      "MOST",
+      "COST",
+      "COSY"
+    ]
+  },
+  {
+    "start": "CARD",
+    "target": "RACK",
+    "optimal": 4,
+    "optimalPath": [
+      "CARD",
+      "BARD",
+      "BARK",
+      "BACK",
+      "RACK"
+    ]
+  },
+  {
+    "start": "NULL",
+    "target": "POOF",
+    "optimal": 4,
+    "optimalPath": [
+      "NULL",
+      "PULL",
+      "POLL",
+      "POOL",
+      "POOF"
+    ]
+  },
+  {
+    "start": "FEDS",
+    "target": "DINE",
+    "optimal": 4,
+    "optimalPath": [
+      "FEDS",
+      "FENS",
+      "DENS",
+      "DINS",
+      "DINE"
+    ]
+  },
+  {
+    "start": "SAKE",
+    "target": "HIRE",
+    "optimal": 3,
+    "optimalPath": [
+      "SAKE",
+      "SIKE",
+      "SIRE",
+      "HIRE"
+    ]
+  },
+  {
+    "start": "JINS",
+    "target": "MISS",
+    "optimal": 3,
+    "optimalPath": [
+      "JINS",
+      "WINS",
+      "WISS",
+      "MISS"
+    ]
+  },
+  {
+    "start": "FANE",
+    "target": "LINK",
+    "optimal": 3,
+    "optimalPath": [
+      "FANE",
+      "FINE",
+      "FINK",
+      "LINK"
+    ]
+  },
+  {
+    "start": "COIN",
+    "target": "TEGS",
+    "optimal": 5,
+    "optimalPath": [
+      "COIN",
+      "COON",
+      "COOS",
+      "COGS",
+      "TOGS",
+      "TEGS"
+    ]
+  },
+  {
+    "start": "BOOS",
+    "target": "PUPS",
+    "optimal": 3,
+    "optimalPath": [
+      "BOOS",
+      "POOS",
+      "POPS",
+      "PUPS"
+    ]
+  },
+  {
+    "start": "DAGS",
+    "target": "DURN",
+    "optimal": 4,
+    "optimalPath": [
+      "DAGS",
+      "DAMS",
+      "DAMN",
+      "DARN",
+      "DURN"
+    ]
+  },
+  {
+    "start": "DUNS",
+    "target": "WOWS",
+    "optimal": 3,
+    "optimalPath": [
+      "DUNS",
+      "DONS",
+      "WONS",
+      "WOWS"
+    ]
+  },
+  {
+    "start": "KAPA",
+    "target": "DARK",
+    "optimal": 4,
+    "optimalPath": [
+      "KAPA",
+      "PAPA",
+      "PARA",
+      "PARK",
+      "DARK"
+    ]
+  },
+  {
+    "start": "WEAK",
+    "target": "EASE",
+    "optimal": 6,
+    "optimalPath": [
+      "WEAK",
+      "BEAK",
+      "BEAT",
+      "BEST",
+      "BAST",
+      "BASE",
+      "EASE"
+    ]
+  },
+  {
+    "start": "DOXY",
+    "target": "MAES",
+    "optimal": 5,
+    "optimalPath": [
+      "DOXY",
+      "DOPY",
+      "MOPY",
+      "MOPS",
+      "MAPS",
+      "MAES"
+    ]
+  },
+  {
+    "start": "BUNG",
+    "target": "NOES",
+    "optimal": 5,
+    "optimalPath": [
+      "BUNG",
+      "TUNG",
+      "TONG",
+      "TONS",
+      "TOES",
+      "NOES"
+    ]
+  },
+  {
+    "start": "TEAR",
+    "target": "COZY",
+    "optimal": 6,
+    "optimalPath": [
+      "TEAR",
+      "TEAT",
+      "TEST",
+      "TOST",
+      "COST",
+      "COSY",
+      "COZY"
+    ]
+  },
+  {
+    "start": "BASH",
+    "target": "BURY",
+    "optimal": 3,
+    "optimalPath": [
+      "BASH",
+      "BUSH",
+      "BUSY",
+      "BURY"
+    ]
+  },
+  {
+    "start": "SOFA",
+    "target": "ACES",
+    "optimal": 7,
+    "optimalPath": [
+      "SOFA",
+      "SODA",
+      "SODS",
+      "TODS",
+      "TOES",
+      "TYES",
+      "AYES",
+      "ACES"
+    ]
+  },
+  {
+    "start": "TAPE",
+    "target": "FASH",
+    "optimal": 4,
+    "optimalPath": [
+      "TAPE",
+      "CAPE",
+      "CASE",
+      "CASH",
+      "FASH"
+    ]
+  },
+  {
+    "start": "SADE",
+    "target": "CAWS",
+    "optimal": 3,
+    "optimalPath": [
+      "SADE",
+      "CADE",
+      "CADS",
+      "CAWS"
+    ]
+  },
+  {
+    "start": "MOWN",
+    "target": "BOLT",
+    "optimal": 4,
+    "optimalPath": [
+      "MOWN",
+      "MOON",
+      "BOON",
+      "BOOT",
+      "BOLT"
+    ]
+  },
+  {
+    "start": "JETS",
+    "target": "FREE",
+    "optimal": 5,
+    "optimalPath": [
+      "JETS",
+      "TETS",
+      "TEES",
+      "TRES",
+      "TREE",
+      "FREE"
+    ]
+  },
+  {
+    "start": "RODS",
+    "target": "KEEF",
+    "optimal": 4,
+    "optimalPath": [
+      "RODS",
+      "REDS",
+      "REES",
+      "REEF",
+      "KEEF"
+    ]
+  },
+  {
+    "start": "PRAY",
+    "target": "GAES",
+    "optimal": 6,
+    "optimalPath": [
+      "PRAY",
+      "TRAY",
+      "TREY",
+      "TRES",
+      "TIES",
+      "GIES",
+      "GAES"
+    ]
+  },
+  {
+    "start": "SICS",
+    "target": "MADS",
+    "optimal": 3,
+    "optimalPath": [
+      "SICS",
+      "MICS",
+      "MIDS",
+      "MADS"
+    ]
+  },
+  {
+    "start": "PICA",
+    "target": "BAAS",
+    "optimal": 4,
+    "optimalPath": [
+      "PICA",
+      "PICS",
+      "PIAS",
+      "BIAS",
+      "BAAS"
+    ]
+  },
+  {
+    "start": "APES",
+    "target": "LEEK",
+    "optimal": 4,
+    "optimalPath": [
+      "APES",
+      "AYES",
+      "LYES",
+      "LEES",
+      "LEEK"
+    ]
+  },
+  {
+    "start": "ZING",
+    "target": "SYNE",
+    "optimal": 3,
+    "optimalPath": [
+      "ZING",
+      "SING",
+      "SINE",
+      "SYNE"
+    ]
+  },
+  {
+    "start": "TOTE",
+    "target": "DAGS",
+    "optimal": 4,
+    "optimalPath": [
+      "TOTE",
+      "TOTS",
+      "TATS",
+      "TAGS",
+      "DAGS"
+    ]
+  },
+  {
+    "start": "TACK",
+    "target": "CIST",
+    "optimal": 4,
+    "optimalPath": [
+      "TACK",
+      "TASK",
+      "CASK",
+      "CAST",
+      "CIST"
+    ]
+  },
+  {
+    "start": "COGS",
+    "target": "KENT",
+    "optimal": 5,
+    "optimalPath": [
+      "COGS",
+      "COLS",
+      "CELS",
+      "CELT",
+      "KELT",
+      "KENT"
+    ]
+  },
+  {
+    "start": "HAIR",
+    "target": "FARL",
+    "optimal": 3,
+    "optimalPath": [
+      "HAIR",
+      "FAIR",
+      "FAIL",
+      "FARL"
+    ]
+  },
+  {
+    "start": "MAYS",
+    "target": "BALD",
+    "optimal": 3,
+    "optimalPath": [
+      "MAYS",
+      "BAYS",
+      "BALS",
+      "BALD"
+    ]
+  },
+  {
+    "start": "BERM",
+    "target": "HOWK",
+    "optimal": 5,
+    "optimalPath": [
+      "BERM",
+      "BARM",
+      "BARK",
+      "HARK",
+      "HAWK",
+      "HOWK"
+    ]
+  },
+  {
+    "start": "MATH",
+    "target": "SPED",
+    "optimal": 6,
+    "optimalPath": [
+      "MATH",
+      "MATS",
+      "OATS",
+      "OPTS",
+      "OPES",
+      "OPED",
+      "SPED"
+    ]
+  },
+  {
+    "start": "DOUR",
+    "target": "LIDS",
+    "optimal": 5,
+    "optimalPath": [
+      "DOUR",
+      "DOER",
+      "DOES",
+      "DIES",
+      "LIES",
+      "LIDS"
+    ]
+  },
+  {
+    "start": "SIMP",
+    "target": "TREE",
+    "optimal": 6,
+    "optimalPath": [
+      "SIMP",
+      "SIMS",
+      "SICS",
+      "TICS",
+      "TIES",
+      "TRES",
+      "TREE"
+    ]
+  },
+  {
+    "start": "TAPS",
+    "target": "PHIS",
+    "optimal": 4,
+    "optimalPath": [
+      "TAPS",
+      "PAPS",
+      "POPS",
+      "POIS",
+      "PHIS"
+    ]
+  },
+  {
+    "start": "LUBE",
+    "target": "MUMP",
+    "optimal": 5,
+    "optimalPath": [
+      "LUBE",
+      "LUGE",
+      "LUGS",
+      "MUGS",
+      "MUMS",
+      "MUMP"
+    ]
+  },
+  {
+    "start": "SIRE",
+    "target": "BAWL",
+    "optimal": 6,
+    "optimalPath": [
+      "SIRE",
+      "DIRE",
+      "DIRL",
+      "BIRL",
+      "BILL",
+      "BALL",
+      "BAWL"
+    ]
+  },
+  {
+    "start": "WEBS",
+    "target": "HOOD",
+    "optimal": 5,
+    "optimalPath": [
+      "WEBS",
+      "WENS",
+      "WONS",
+      "WOOS",
+      "WOOD",
+      "HOOD"
+    ]
+  },
+  {
+    "start": "GINS",
+    "target": "AMIN",
+    "optimal": 6,
+    "optimalPath": [
+      "GINS",
+      "GITS",
+      "AITS",
+      "ANTS",
+      "ANIS",
+      "AMIS",
+      "AMIN"
+    ]
+  },
+  {
+    "start": "SITE",
+    "target": "NEBS",
+    "optimal": 4,
+    "optimalPath": [
+      "SITE",
+      "SITS",
+      "SETS",
+      "NETS",
+      "NEBS"
+    ]
+  },
+  {
+    "start": "STAY",
+    "target": "DRAY",
+    "optimal": 4,
+    "optimalPath": [
+      "STAY",
+      "SLAY",
+      "FLAY",
+      "FRAY",
+      "DRAY"
+    ]
+  },
+  {
+    "start": "LOTA",
+    "target": "BONK",
+    "optimal": 4,
+    "optimalPath": [
+      "LOTA",
+      "LOCA",
+      "LOCK",
+      "BOCK",
+      "BONK"
+    ]
+  },
+  {
+    "start": "TORT",
+    "target": "MEGS",
+    "optimal": 4,
+    "optimalPath": [
+      "TORT",
+      "MORT",
+      "MORS",
+      "MOGS",
+      "MEGS"
+    ]
+  },
+  {
+    "start": "AXES",
+    "target": "MIRS",
+    "optimal": 5,
+    "optimalPath": [
+      "AXES",
+      "ACES",
+      "ACTS",
+      "AITS",
+      "AIRS",
+      "MIRS"
+    ]
+  },
+  {
+    "start": "BOWL",
+    "target": "FRAT",
+    "optimal": 5,
+    "optimalPath": [
+      "BOWL",
+      "BOLL",
+      "BOLT",
+      "BOAT",
+      "BRAT",
+      "FRAT"
+    ]
+  },
+  {
+    "start": "MAIN",
+    "target": "AGEE",
+    "optimal": 6,
+    "optimalPath": [
+      "MAIN",
+      "GAIN",
+      "GAEN",
+      "GLEN",
+      "GLEE",
+      "ALEE",
+      "AGEE"
+    ]
+  },
+  {
+    "start": "BISK",
+    "target": "LONG",
+    "optimal": 4,
+    "optimalPath": [
+      "BISK",
+      "BOSK",
+      "BONK",
+      "BONG",
+      "LONG"
+    ]
+  },
+  {
+    "start": "WHIM",
+    "target": "MULE",
+    "optimal": 7,
+    "optimalPath": [
+      "WHIM",
+      "WHIN",
+      "WAIN",
+      "WARN",
+      "WARE",
+      "WALE",
+      "MALE",
+      "MULE"
+    ]
+  },
+  {
+    "start": "WEAK",
+    "target": "COSH",
+    "optimal": 6,
+    "optimalPath": [
+      "WEAK",
+      "BEAK",
+      "BEAT",
+      "BOAT",
+      "COAT",
+      "COST",
+      "COSH"
+    ]
+  },
+  {
+    "start": "HETS",
+    "target": "DULL",
+    "optimal": 5,
+    "optimalPath": [
+      "HETS",
+      "HENS",
+      "DENS",
+      "DELS",
+      "DELL",
+      "DULL"
+    ]
+  },
+  {
+    "start": "DENS",
+    "target": "WIRE",
+    "optimal": 4,
+    "optimalPath": [
+      "DENS",
+      "DINS",
+      "WINS",
+      "WINE",
+      "WIRE"
+    ]
+  },
+  {
+    "start": "MULE",
+    "target": "DORS",
+    "optimal": 4,
+    "optimalPath": [
+      "MULE",
+      "MURE",
+      "DURE",
+      "DORE",
+      "DORS"
+    ]
+  },
+  {
+    "start": "MUSH",
+    "target": "MINI",
+    "optimal": 4,
+    "optimalPath": [
+      "MUSH",
+      "MUST",
+      "MIST",
+      "MINT",
+      "MINI"
+    ]
+  },
+  {
+    "start": "DUNS",
+    "target": "BODE",
+    "optimal": 4,
+    "optimalPath": [
+      "DUNS",
+      "BUNS",
+      "BUDS",
+      "BODS",
+      "BODE"
+    ]
+  },
+  {
+    "start": "KINS",
+    "target": "SLAG",
+    "optimal": 6,
+    "optimalPath": [
+      "KINS",
+      "BINS",
+      "BIOS",
+      "BIOG",
+      "BLOG",
+      "SLOG",
+      "SLAG"
+    ]
+  },
+  {
+    "start": "PEST",
+    "target": "MINA",
+    "optimal": 4,
+    "optimalPath": [
+      "PEST",
+      "PENT",
+      "PINT",
+      "PINA",
+      "MINA"
+    ]
+  },
+  {
+    "start": "TASS",
+    "target": "DIRE",
+    "optimal": 4,
+    "optimalPath": [
+      "TASS",
+      "TARS",
+      "TARE",
+      "DARE",
+      "DIRE"
+    ]
+  },
+  {
+    "start": "GANG",
+    "target": "KORE",
+    "optimal": 4,
+    "optimalPath": [
+      "GANG",
+      "GANE",
+      "GONE",
+      "GORE",
+      "KORE"
+    ]
+  },
+  {
+    "start": "DEED",
+    "target": "SODS",
+    "optimal": 5,
+    "optimalPath": [
+      "DEED",
+      "DEES",
+      "REES",
+      "REDS",
+      "RODS",
+      "SODS"
+    ]
+  },
+  {
+    "start": "PULA",
+    "target": "DUBS",
+    "optimal": 3,
+    "optimalPath": [
+      "PULA",
+      "PULS",
+      "PUBS",
+      "DUBS"
+    ]
+  },
+  {
+    "start": "GOAD",
+    "target": "GIGS",
+    "optimal": 4,
+    "optimalPath": [
+      "GOAD",
+      "GOAS",
+      "GODS",
+      "GIDS",
+      "GIGS"
+    ]
+  },
+  {
+    "start": "YELD",
+    "target": "BOLD",
+    "optimal": 3,
+    "optimalPath": [
+      "YELD",
+      "GELD",
+      "GOLD",
+      "BOLD"
+    ]
+  },
+  {
+    "start": "FORA",
+    "target": "BURD",
+    "optimal": 3,
+    "optimalPath": [
+      "FORA",
+      "BORA",
+      "BURA",
+      "BURD"
+    ]
+  },
+  {
+    "start": "POLE",
+    "target": "WANS",
+    "optimal": 4,
+    "optimalPath": [
+      "POLE",
+      "PONE",
+      "PONS",
+      "PANS",
+      "WANS"
+    ]
+  },
+  {
+    "start": "COFT",
+    "target": "HUBS",
+    "optimal": 5,
+    "optimalPath": [
+      "COFT",
+      "COOT",
+      "COOS",
+      "COBS",
+      "HOBS",
+      "HUBS"
+    ]
+  },
+  {
+    "start": "TOFT",
+    "target": "RAND",
+    "optimal": 6,
+    "optimalPath": [
+      "TOFT",
+      "TOST",
+      "TEST",
+      "TENT",
+      "RENT",
+      "REND",
+      "RAND"
+    ]
+  },
+  {
+    "start": "BROS",
+    "target": "MEME",
+    "optimal": 5,
+    "optimalPath": [
+      "BROS",
+      "BOOS",
+      "MOOS",
+      "MOMS",
+      "MEMS",
+      "MEME"
+    ]
+  },
+  {
+    "start": "TICK",
+    "target": "JOKE",
+    "optimal": 5,
+    "optimalPath": [
+      "TICK",
+      "MICK",
+      "MICE",
+      "MIKE",
+      "MOKE",
+      "JOKE"
+    ]
+  },
+  {
+    "start": "TOFT",
+    "target": "MIRS",
+    "optimal": 4,
+    "optimalPath": [
+      "TOFT",
+      "TORT",
+      "MORT",
+      "MORS",
+      "MIRS"
+    ]
+  },
+  {
+    "start": "MANE",
+    "target": "OOTS",
+    "optimal": 4,
+    "optimalPath": [
+      "MANE",
+      "MANS",
+      "MONS",
+      "MOTS",
+      "OOTS"
+    ]
+  },
+  {
+    "start": "SPAY",
+    "target": "MIRK",
+    "optimal": 6,
+    "optimalPath": [
+      "SPAY",
+      "SPAS",
+      "SEAS",
+      "SERS",
+      "SIRS",
+      "MIRS",
+      "MIRK"
+    ]
+  },
+  {
+    "start": "HONE",
+    "target": "CORK",
+    "optimal": 3,
+    "optimalPath": [
+      "HONE",
+      "HONK",
+      "CONK",
+      "CORK"
+    ]
+  },
+  {
+    "start": "HERL",
+    "target": "BRIM",
+    "optimal": 6,
+    "optimalPath": [
+      "HERL",
+      "HERS",
+      "SERS",
+      "SEIS",
+      "SRIS",
+      "BRIS",
+      "BRIM"
+    ]
+  },
+  {
+    "start": "FURL",
+    "target": "GODS",
+    "optimal": 5,
+    "optimalPath": [
+      "FURL",
+      "CURL",
+      "CURS",
+      "CUDS",
+      "CODS",
+      "GODS"
+    ]
+  },
+  {
+    "start": "BOSK",
+    "target": "MILK",
+    "optimal": 3,
+    "optimalPath": [
+      "BOSK",
+      "BISK",
+      "BILK",
+      "MILK"
+    ]
+  },
+  {
+    "start": "PEPS",
+    "target": "CORK",
+    "optimal": 4,
+    "optimalPath": [
+      "PEPS",
+      "POPS",
+      "COPS",
+      "CORS",
+      "CORK"
+    ]
+  },
+  {
+    "start": "DURA",
+    "target": "PONE",
+    "optimal": 4,
+    "optimalPath": [
+      "DURA",
+      "DURE",
+      "DORE",
+      "PORE",
+      "PONE"
+    ]
+  },
+  {
+    "start": "NEAT",
+    "target": "DERE",
+    "optimal": 4,
+    "optimalPath": [
+      "NEAT",
+      "PEAT",
+      "PERT",
+      "PERE",
+      "DERE"
+    ]
+  },
+  {
+    "start": "DIAL",
+    "target": "PAIR",
+    "optimal": 5,
+    "optimalPath": [
+      "DIAL",
+      "PIAL",
+      "PILL",
+      "PALL",
+      "PAIL",
+      "PAIR"
+    ]
+  },
+  {
+    "start": "DANG",
+    "target": "PEEK",
+    "optimal": 5,
+    "optimalPath": [
+      "DANG",
+      "PANG",
+      "PANS",
+      "PENS",
+      "PEES",
+      "PEEK"
+    ]
+  },
+  {
+    "start": "TRAM",
+    "target": "STAR",
+    "optimal": 4,
+    "optimalPath": [
+      "TRAM",
+      "TEAM",
+      "SEAM",
+      "SEAR",
+      "STAR"
+    ]
+  },
+  {
+    "start": "FOIL",
+    "target": "BIRK",
+    "optimal": 5,
+    "optimalPath": [
+      "FOIL",
+      "BOIL",
+      "BOLL",
+      "BILL",
+      "BILK",
+      "BIRK"
+    ]
+  },
+  {
+    "start": "LUCE",
+    "target": "PIKE",
+    "optimal": 3,
+    "optimalPath": [
+      "LUCE",
+      "LICE",
+      "PICE",
+      "PIKE"
+    ]
+  },
+  {
+    "start": "PLAT",
+    "target": "DUDS",
+    "optimal": 5,
+    "optimalPath": [
+      "PLAT",
+      "PEAT",
+      "PEAS",
+      "PEDS",
+      "PUDS",
+      "DUDS"
+    ]
+  },
+  {
+    "start": "PALE",
+    "target": "BIFF",
+    "optimal": 5,
+    "optimalPath": [
+      "PALE",
+      "RALE",
+      "RILE",
+      "RIFE",
+      "RIFF",
+      "BIFF"
+    ]
+  },
+  {
+    "start": "GLEE",
+    "target": "VUGS",
+    "optimal": 6,
+    "optimalPath": [
+      "GLEE",
+      "GLEN",
+      "GIEN",
+      "GIES",
+      "GIGS",
+      "VIGS",
+      "VUGS"
+    ]
+  },
+  {
+    "start": "TEAR",
+    "target": "PILL",
+    "optimal": 4,
+    "optimalPath": [
+      "TEAR",
+      "TEAL",
+      "PEAL",
+      "PIAL",
+      "PILL"
+    ]
+  },
+  {
+    "start": "BLEW",
+    "target": "NICK",
+    "optimal": 7,
+    "optimalPath": [
+      "BLEW",
+      "BLAW",
+      "BLAT",
+      "BEAT",
+      "BEAK",
+      "BECK",
+      "NECK",
+      "NICK"
+    ]
+  },
+  {
+    "start": "PATS",
+    "target": "BOOS",
+    "optimal": 3,
+    "optimalPath": [
+      "PATS",
+      "POTS",
+      "BOTS",
+      "BOOS"
+    ]
+  },
+  {
+    "start": "POUR",
+    "target": "SNAG",
+    "optimal": 5,
+    "optimalPath": [
+      "POUR",
+      "SOUR",
+      "SOUP",
+      "SOAP",
+      "SNAP",
+      "SNAG"
+    ]
+  },
+  {
+    "start": "REAM",
+    "target": "SANG",
+    "optimal": 5,
+    "optimalPath": [
+      "REAM",
+      "READ",
+      "REND",
+      "RAND",
+      "SAND",
+      "SANG"
+    ]
+  },
+  {
+    "start": "BOAS",
+    "target": "GRAY",
+    "optimal": 3,
+    "optimalPath": [
+      "BOAS",
+      "BRAS",
+      "BRAY",
+      "GRAY"
+    ]
+  },
+  {
+    "start": "MIST",
+    "target": "LAKE",
+    "optimal": 4,
+    "optimalPath": [
+      "MIST",
+      "LIST",
+      "LAST",
+      "LASE",
+      "LAKE"
+    ]
+  },
+  {
+    "start": "LEIS",
+    "target": "CAVE",
+    "optimal": 5,
+    "optimalPath": [
+      "LEIS",
+      "LEKS",
+      "LEKE",
+      "LAKE",
+      "LAVE",
+      "CAVE"
+    ]
+  },
+  {
+    "start": "DORK",
+    "target": "GADS",
+    "optimal": 5,
+    "optimalPath": [
+      "DORK",
+      "BORK",
+      "BARK",
+      "BARS",
+      "BADS",
+      "GADS"
+    ]
+  },
+  {
+    "start": "SABS",
+    "target": "COFF",
+    "optimal": 5,
+    "optimalPath": [
+      "SABS",
+      "CABS",
+      "CARS",
+      "CORS",
+      "CORF",
+      "COFF"
+    ]
+  },
+  {
+    "start": "TOSS",
+    "target": "FARO",
+    "optimal": 4,
+    "optimalPath": [
+      "TOSS",
+      "TASS",
+      "TARS",
+      "TARO",
+      "FARO"
+    ]
+  },
+  {
+    "start": "SURA",
+    "target": "CRAG",
+    "optimal": 7,
+    "optimalPath": [
+      "SURA",
+      "SORA",
+      "SORT",
+      "BORT",
+      "BOAT",
+      "BRAT",
+      "BRAG",
+      "CRAG"
+    ]
+  },
+  {
+    "start": "CURL",
+    "target": "SLAW",
+    "optimal": 6,
+    "optimalPath": [
+      "CURL",
+      "CURD",
+      "CUED",
+      "SUED",
+      "SLED",
+      "SLEW",
+      "SLAW"
+    ]
+  },
+  {
+    "start": "LANG",
+    "target": "TOES",
+    "optimal": 4,
+    "optimalPath": [
+      "LANG",
+      "LONG",
+      "TONG",
+      "TONS",
+      "TOES"
+    ]
+  },
+  {
+    "start": "KIRS",
+    "target": "TYEE",
+    "optimal": 5,
+    "optimalPath": [
+      "KIRS",
+      "SIRS",
+      "SIRE",
+      "TIRE",
+      "TYRE",
+      "TYEE"
+    ]
+  },
+  {
+    "start": "SCAN",
+    "target": "YIDS",
+    "optimal": 7,
+    "optimalPath": [
+      "SCAN",
+      "SCAR",
+      "SEAR",
+      "YEAR",
+      "YEAS",
+      "YENS",
+      "YINS",
+      "YIDS"
+    ]
+  },
+  {
+    "start": "DOTE",
+    "target": "GOES",
+    "optimal": 3,
+    "optimalPath": [
+      "DOTE",
+      "DOTS",
+      "DOES",
+      "GOES"
+    ]
+  },
+  {
+    "start": "GIDS",
+    "target": "HUMP",
+    "optimal": 5,
+    "optimalPath": [
+      "GIDS",
+      "MIDS",
+      "MUDS",
+      "MUMS",
+      "MUMP",
+      "HUMP"
+    ]
+  },
+  {
+    "start": "PENS",
+    "target": "GRIT",
+    "optimal": 5,
+    "optimalPath": [
+      "PENS",
+      "PENT",
+      "PEAT",
+      "PRAT",
+      "GRAT",
+      "GRIT"
+    ]
+  },
+  {
+    "start": "BALS",
+    "target": "ORTS",
+    "optimal": 3,
+    "optimalPath": [
+      "BALS",
+      "BATS",
+      "OATS",
+      "ORTS"
+    ]
+  },
+  {
+    "start": "PORN",
+    "target": "LEYS",
+    "optimal": 5,
+    "optimalPath": [
+      "PORN",
+      "LORN",
+      "LOAN",
+      "LEAN",
+      "LEAS",
+      "LEYS"
+    ]
+  },
+  {
+    "start": "COKY",
+    "target": "BYES",
+    "optimal": 6,
+    "optimalPath": [
+      "COKY",
+      "COPY",
+      "COPS",
+      "TOPS",
+      "TOES",
+      "TYES",
+      "BYES"
+    ]
+  },
+  {
+    "start": "JOGS",
+    "target": "SANS",
+    "optimal": 3,
+    "optimalPath": [
+      "JOGS",
+      "JAGS",
+      "SAGS",
+      "SANS"
+    ]
+  },
+  {
+    "start": "PURE",
+    "target": "BRAS",
+    "optimal": 5,
+    "optimalPath": [
+      "PURE",
+      "PURS",
+      "BURS",
+      "BARS",
+      "BAAS",
+      "BRAS"
+    ]
+  },
+  {
+    "start": "SOJA",
+    "target": "VALE",
+    "optimal": 4,
+    "optimalPath": [
+      "SOJA",
+      "SOLA",
+      "SOLE",
+      "VOLE",
+      "VALE"
+    ]
+  },
+  {
+    "start": "DEEM",
+    "target": "MAWS",
+    "optimal": 4,
+    "optimalPath": [
+      "DEEM",
+      "DEES",
+      "DEWS",
+      "MEWS",
+      "MAWS"
+    ]
+  },
+  {
+    "start": "LUNG",
+    "target": "WORE",
+    "optimal": 4,
+    "optimalPath": [
+      "LUNG",
+      "LONG",
+      "LONE",
+      "LORE",
+      "WORE"
+    ]
+  },
+  {
+    "start": "PATS",
+    "target": "SCAG",
+    "optimal": 6,
+    "optimalPath": [
+      "PATS",
+      "PETS",
+      "SETS",
+      "SEAS",
+      "SEAR",
+      "SCAR",
+      "SCAG"
+    ]
+  },
+  {
+    "start": "BRIM",
+    "target": "BUNK",
+    "optimal": 6,
+    "optimalPath": [
+      "BRIM",
+      "BRIS",
+      "BROS",
+      "BOOS",
+      "BOOK",
+      "BONK",
+      "BUNK"
+    ]
+  },
+  {
+    "start": "SLOG",
+    "target": "BITS",
+    "optimal": 4,
+    "optimalPath": [
+      "SLOG",
+      "BLOG",
+      "BIOG",
+      "BIOS",
+      "BITS"
+    ]
+  },
+  {
+    "start": "DYNE",
+    "target": "TUBE",
+    "optimal": 3,
+    "optimalPath": [
+      "DYNE",
+      "DUNE",
+      "TUNE",
+      "TUBE"
+    ]
+  },
+  {
+    "start": "NINE",
+    "target": "BRAG",
+    "optimal": 5,
+    "optimalPath": [
+      "NINE",
+      "BINE",
+      "BINS",
+      "BIAS",
+      "BRAS",
+      "BRAG"
+    ]
+  },
+  {
+    "start": "PALM",
+    "target": "TOTS",
+    "optimal": 4,
+    "optimalPath": [
+      "PALM",
+      "PALS",
+      "PATS",
+      "POTS",
+      "TOTS"
+    ]
+  },
+  {
+    "start": "COWL",
+    "target": "PUDS",
+    "optimal": 4,
+    "optimalPath": [
+      "COWL",
+      "COWS",
+      "POWS",
+      "PODS",
+      "PUDS"
+    ]
+  },
+  {
+    "start": "SOUL",
+    "target": "WANS",
+    "optimal": 4,
+    "optimalPath": [
+      "SOUL",
+      "SOUS",
+      "SONS",
+      "SANS",
+      "WANS"
+    ]
+  },
+  {
+    "start": "DOZE",
+    "target": "SOLS",
+    "optimal": 3,
+    "optimalPath": [
+      "DOZE",
+      "DOLE",
+      "DOLS",
+      "SOLS"
+    ]
+  },
+  {
+    "start": "DOTY",
+    "target": "CURB",
+    "optimal": 5,
+    "optimalPath": [
+      "DOTY",
+      "DOTS",
+      "DORS",
+      "CORS",
+      "CURS",
+      "CURB"
+    ]
+  },
+  {
+    "start": "SOBS",
+    "target": "LEGS",
+    "optimal": 3,
+    "optimalPath": [
+      "SOBS",
+      "LOBS",
+      "LOGS",
+      "LEGS"
+    ]
+  },
+  {
+    "start": "BOSK",
+    "target": "GILD",
+    "optimal": 5,
+    "optimalPath": [
+      "BOSK",
+      "BISK",
+      "BIRK",
+      "BIRD",
+      "GIRD",
+      "GILD"
+    ]
+  },
+  {
+    "start": "LIER",
+    "target": "BROS",
+    "optimal": 5,
+    "optimalPath": [
+      "LIER",
+      "LIES",
+      "LIBS",
+      "BIBS",
+      "BIOS",
+      "BROS"
+    ]
+  },
+  {
+    "start": "POTS",
+    "target": "SEEL",
+    "optimal": 4,
+    "optimalPath": [
+      "POTS",
+      "PETS",
+      "SETS",
+      "SEES",
+      "SEEL"
+    ]
+  },
+  {
+    "start": "CURE",
+    "target": "PAPS",
+    "optimal": 4,
+    "optimalPath": [
+      "CURE",
+      "CARE",
+      "CAPE",
+      "CAPS",
+      "PAPS"
+    ]
+  },
+  {
+    "start": "WHIT",
+    "target": "CANT",
+    "optimal": 3,
+    "optimalPath": [
+      "WHIT",
+      "WAIT",
+      "WANT",
+      "CANT"
+    ]
+  },
+  {
+    "start": "DOTH",
+    "target": "REAL",
+    "optimal": 6,
+    "optimalPath": [
+      "DOTH",
+      "MOTH",
+      "MOTT",
+      "MOAT",
+      "MEAT",
+      "MEAL",
+      "REAL"
+    ]
+  },
+  {
+    "start": "FATS",
+    "target": "ZEDS",
+    "optimal": 3,
+    "optimalPath": [
+      "FATS",
+      "FETS",
+      "FEDS",
+      "ZEDS"
+    ]
+  },
+  {
+    "start": "LOUT",
+    "target": "BAIL",
+    "optimal": 5,
+    "optimalPath": [
+      "LOUT",
+      "LOST",
+      "LAST",
+      "BAST",
+      "BAIT",
+      "BAIL"
+    ]
+  },
+  {
+    "start": "LOUT",
+    "target": "SYKE",
+    "optimal": 6,
+    "optimalPath": [
+      "LOUT",
+      "LOST",
+      "HOST",
+      "HOSE",
+      "HOKE",
+      "SOKE",
+      "SYKE"
+    ]
+  },
+  {
+    "start": "PIAS",
+    "target": "RUES",
+    "optimal": 4,
+    "optimalPath": [
+      "PIAS",
+      "PIGS",
+      "RIGS",
+      "RUGS",
+      "RUES"
+    ]
+  },
+  {
+    "start": "MIBS",
+    "target": "LAKE",
+    "optimal": 5,
+    "optimalPath": [
+      "MIBS",
+      "MIDS",
+      "LIDS",
+      "LADS",
+      "LADE",
+      "LAKE"
+    ]
+  },
+  {
+    "start": "FEUS",
+    "target": "WEEK",
+    "optimal": 3,
+    "optimalPath": [
+      "FEUS",
+      "FEES",
+      "WEES",
+      "WEEK"
+    ]
+  },
+  {
+    "start": "CODE",
+    "target": "LAVE",
+    "optimal": 3,
+    "optimalPath": [
+      "CODE",
+      "CADE",
+      "CAVE",
+      "LAVE"
+    ]
+  },
+  {
+    "start": "GYRE",
+    "target": "GAMB",
+    "optimal": 4,
+    "optimalPath": [
+      "GYRE",
+      "GYVE",
+      "GAVE",
+      "GAME",
+      "GAMB"
+    ]
+  },
+  {
+    "start": "MOMS",
+    "target": "TOOT",
+    "optimal": 3,
+    "optimalPath": [
+      "MOMS",
+      "MOOS",
+      "MOOT",
+      "TOOT"
+    ]
+  },
+  {
+    "start": "HAWK",
+    "target": "GRIG",
+    "optimal": 6,
+    "optimalPath": [
+      "HAWK",
+      "HOWK",
+      "GOWK",
+      "GOOK",
+      "GROK",
+      "GROG",
+      "GRIG"
+    ]
+  },
+  {
+    "start": "SETS",
+    "target": "THIS",
+    "optimal": 4,
+    "optimalPath": [
+      "SETS",
+      "TETS",
+      "TUTS",
+      "TUIS",
+      "THIS"
+    ]
+  },
+  {
+    "start": "MART",
+    "target": "RILL",
+    "optimal": 4,
+    "optimalPath": [
+      "MART",
+      "MALT",
+      "MILT",
+      "MILL",
+      "RILL"
+    ]
+  },
+  {
+    "start": "LALL",
+    "target": "LAPS",
+    "optimal": 4,
+    "optimalPath": [
+      "LALL",
+      "GALL",
+      "GALS",
+      "GAPS",
+      "LAPS"
+    ]
+  },
+  {
+    "start": "POLL",
+    "target": "DARB",
+    "optimal": 5,
+    "optimalPath": [
+      "POLL",
+      "PALL",
+      "CALL",
+      "CARL",
+      "CARB",
+      "DARB"
+    ]
+  },
+  {
+    "start": "ROCK",
+    "target": "PEON",
+    "optimal": 5,
+    "optimalPath": [
+      "ROCK",
+      "ROOK",
+      "COOK",
+      "COON",
+      "POON",
+      "PEON"
+    ]
+  },
+  {
+    "start": "CAFF",
+    "target": "RUNE",
+    "optimal": 5,
+    "optimalPath": [
+      "CAFF",
+      "RAFF",
+      "RAFT",
+      "RANT",
+      "RUNT",
+      "RUNE"
+    ]
+  },
+  {
+    "start": "COOL",
+    "target": "CELT",
+    "optimal": 3,
+    "optimalPath": [
+      "COOL",
+      "COOT",
+      "COLT",
+      "CELT"
+    ]
+  },
+  {
+    "start": "SLAT",
+    "target": "DOSS",
+    "optimal": 5,
+    "optimalPath": [
+      "SLAT",
+      "BLAT",
+      "BOAT",
+      "BOAS",
+      "BOSS",
+      "DOSS"
+    ]
+  },
+  {
+    "start": "PIMA",
+    "target": "WOLD",
+    "optimal": 5,
+    "optimalPath": [
+      "PIMA",
+      "SIMA",
+      "SOMA",
+      "SOLA",
+      "SOLD",
+      "WOLD"
+    ]
+  },
+  {
+    "start": "BUTT",
+    "target": "RICE",
+    "optimal": 4,
+    "optimalPath": [
+      "BUTT",
+      "BITT",
+      "BITE",
+      "BICE",
+      "RICE"
+    ]
+  },
+  {
+    "start": "DAME",
+    "target": "HARL",
+    "optimal": 3,
+    "optimalPath": [
+      "DAME",
+      "DARE",
+      "HARE",
+      "HARL"
+    ]
+  },
+  {
+    "start": "WELL",
+    "target": "AHIS",
+    "optimal": 7,
+    "optimalPath": [
+      "WELL",
+      "SELL",
+      "SELS",
+      "SEIS",
+      "SRIS",
+      "KRIS",
+      "KHIS",
+      "AHIS"
+    ]
+  },
+  {
+    "start": "LAIN",
+    "target": "WILT",
+    "optimal": 5,
+    "optimalPath": [
+      "LAIN",
+      "WAIN",
+      "WAIT",
+      "WAST",
+      "WIST",
+      "WILT"
+    ]
+  },
+  {
+    "start": "FORK",
+    "target": "RETE",
+    "optimal": 4,
+    "optimalPath": [
+      "FORK",
+      "FORE",
+      "FERE",
+      "FETE",
+      "RETE"
+    ]
+  },
+  {
+    "start": "FARO",
+    "target": "HERB",
+    "optimal": 4,
+    "optimalPath": [
+      "FARO",
+      "FARE",
+      "HARE",
+      "HERE",
+      "HERB"
+    ]
+  },
+  {
+    "start": "BOLL",
+    "target": "HAYS",
+    "optimal": 4,
+    "optimalPath": [
+      "BOLL",
+      "BALL",
+      "BALS",
+      "BAYS",
+      "HAYS"
+    ]
+  },
+  {
+    "start": "HARE",
+    "target": "MAGS",
+    "optimal": 3,
+    "optimalPath": [
+      "HARE",
+      "MARE",
+      "MAGE",
+      "MAGS"
+    ]
+  },
+  {
+    "start": "CORE",
+    "target": "NAME",
+    "optimal": 3,
+    "optimalPath": [
+      "CORE",
+      "CARE",
+      "CAME",
+      "NAME"
+    ]
+  },
+  {
+    "start": "DUFF",
+    "target": "DANG",
+    "optimal": 5,
+    "optimalPath": [
+      "DUFF",
+      "DIFF",
+      "DIFS",
+      "DINS",
+      "DING",
+      "DANG"
+    ]
+  },
+  {
+    "start": "NILL",
+    "target": "THIS",
+    "optimal": 6,
+    "optimalPath": [
+      "NILL",
+      "PILL",
+      "POLL",
+      "POLS",
+      "POIS",
+      "PHIS",
+      "THIS"
+    ]
+  },
+  {
+    "start": "GABS",
+    "target": "SHAG",
+    "optimal": 6,
+    "optimalPath": [
+      "GABS",
+      "GOBS",
+      "GOAS",
+      "GOAT",
+      "GHAT",
+      "SHAT",
+      "SHAG"
+    ]
+  },
+  {
+    "start": "DOXY",
+    "target": "RAID",
+    "optimal": 6,
+    "optimalPath": [
+      "DOXY",
+      "BOXY",
+      "BONY",
+      "BOND",
+      "BAND",
+      "RAND",
+      "RAID"
+    ]
+  },
+  {
+    "start": "FARE",
+    "target": "CURS",
+    "optimal": 3,
+    "optimalPath": [
+      "FARE",
+      "CARE",
+      "CARS",
+      "CURS"
+    ]
+  },
+  {
+    "start": "HALE",
+    "target": "FIDS",
+    "optimal": 4,
+    "optimalPath": [
+      "HALE",
+      "HADE",
+      "FADE",
+      "FADS",
+      "FIDS"
+    ]
+  },
+  {
+    "start": "RAWS",
+    "target": "PANT",
+    "optimal": 3,
+    "optimalPath": [
+      "RAWS",
+      "PAWS",
+      "PANS",
+      "PANT"
+    ]
+  },
+  {
+    "start": "FLOG",
+    "target": "ZONK",
+    "optimal": 6,
+    "optimalPath": [
+      "FLOG",
+      "CLOG",
+      "CLOP",
+      "COOP",
+      "COOK",
+      "CONK",
+      "ZONK"
+    ]
+  },
+  {
+    "start": "WIDE",
+    "target": "JEES",
+    "optimal": 5,
+    "optimalPath": [
+      "WIDE",
+      "WITE",
+      "WITS",
+      "WETS",
+      "JETS",
+      "JEES"
+    ]
+  },
+  {
+    "start": "SPAT",
+    "target": "NITE",
+    "optimal": 6,
+    "optimalPath": [
+      "SPAT",
+      "SPAS",
+      "SEAS",
+      "SETS",
+      "SITS",
+      "SITE",
+      "NITE"
+    ]
+  },
+  {
+    "start": "SUDS",
+    "target": "BANE",
+    "optimal": 4,
+    "optimalPath": [
+      "SUDS",
+      "SUNS",
+      "BUNS",
+      "BANS",
+      "BANE"
+    ]
+  },
+  {
+    "start": "DIBS",
+    "target": "ROWS",
+    "optimal": 3,
+    "optimalPath": [
+      "DIBS",
+      "RIBS",
+      "ROBS",
+      "ROWS"
+    ]
+  },
+  {
+    "start": "WIFE",
+    "target": "HUSH",
+    "optimal": 5,
+    "optimalPath": [
+      "WIFE",
+      "WISE",
+      "RISE",
+      "RUSE",
+      "RUSH",
+      "HUSH"
+    ]
+  },
+  {
+    "start": "HASH",
+    "target": "KAIN",
+    "optimal": 5,
+    "optimalPath": [
+      "HASH",
+      "HAST",
+      "WAST",
+      "WAIT",
+      "WAIN",
+      "KAIN"
+    ]
+  },
+  {
+    "start": "LORE",
+    "target": "FUSS",
+    "optimal": 4,
+    "optimalPath": [
+      "LORE",
+      "LOSE",
+      "LOSS",
+      "FOSS",
+      "FUSS"
+    ]
+  },
+  {
+    "start": "MARK",
+    "target": "THAT",
+    "optimal": 6,
+    "optimalPath": [
+      "MARK",
+      "MART",
+      "MALT",
+      "MELT",
+      "MEAT",
+      "TEAT",
+      "THAT"
+    ]
+  },
+  {
+    "start": "MERE",
+    "target": "JOLE",
+    "optimal": 3,
+    "optimalPath": [
+      "MERE",
+      "MORE",
+      "MOLE",
+      "JOLE"
+    ]
+  },
+  {
+    "start": "BASS",
+    "target": "GOES",
+    "optimal": 4,
+    "optimalPath": [
+      "BASS",
+      "BAAS",
+      "BOAS",
+      "GOAS",
+      "GOES"
+    ]
+  },
+  {
+    "start": "FILE",
+    "target": "TORC",
+    "optimal": 4,
+    "optimalPath": [
+      "FILE",
+      "FIRE",
+      "FORE",
+      "TORE",
+      "TORC"
+    ]
+  },
+  {
+    "start": "DORY",
+    "target": "PITY",
+    "optimal": 4,
+    "optimalPath": [
+      "DORY",
+      "DOXY",
+      "POXY",
+      "PIXY",
+      "PITY"
+    ]
+  },
+  {
+    "start": "STAT",
+    "target": "CUNT",
+    "optimal": 4,
+    "optimalPath": [
+      "STAT",
+      "SEAT",
+      "SENT",
+      "CENT",
+      "CUNT"
+    ]
+  },
+  {
+    "start": "RIAL",
+    "target": "MOSK",
+    "optimal": 6,
+    "optimalPath": [
+      "RIAL",
+      "REAL",
+      "MEAL",
+      "MEAT",
+      "MOAT",
+      "MOST",
+      "MOSK"
+    ]
+  },
+  {
+    "start": "AITS",
+    "target": "HAFT",
+    "optimal": 5,
+    "optimalPath": [
+      "AITS",
+      "HITS",
+      "HIES",
+      "HAES",
+      "HAET",
+      "HAFT"
+    ]
+  },
+  {
+    "start": "PANG",
+    "target": "LAMA",
+    "optimal": 4,
+    "optimalPath": [
+      "PANG",
+      "LANG",
+      "LANE",
+      "LAME",
+      "LAMA"
+    ]
+  },
+  {
+    "start": "DIRE",
+    "target": "KIPS",
+    "optimal": 4,
+    "optimalPath": [
+      "DIRE",
+      "DITE",
+      "KITE",
+      "KITS",
+      "KIPS"
+    ]
+  },
+  {
+    "start": "LYES",
+    "target": "PLOD",
+    "optimal": 5,
+    "optimalPath": [
+      "LYES",
+      "LEES",
+      "PEES",
+      "PEED",
+      "PLED",
+      "PLOD"
+    ]
+  },
+  {
+    "start": "SHOG",
+    "target": "NEST",
+    "optimal": 5,
+    "optimalPath": [
+      "SHOG",
+      "SHOT",
+      "SHAT",
+      "SEAT",
+      "NEAT",
+      "NEST"
+    ]
+  },
+  {
+    "start": "METE",
+    "target": "DOZY",
+    "optimal": 4,
+    "optimalPath": [
+      "METE",
+      "MOTE",
+      "DOTE",
+      "DOTY",
+      "DOZY"
+    ]
+  },
+  {
+    "start": "MUMP",
+    "target": "PANT",
+    "optimal": 5,
+    "optimalPath": [
+      "MUMP",
+      "PUMP",
+      "PUMA",
+      "PUNA",
+      "PUNT",
+      "PANT"
+    ]
+  },
+  {
+    "start": "HECK",
+    "target": "MUTE",
+    "optimal": 5,
+    "optimalPath": [
+      "HECK",
+      "HACK",
+      "MACK",
+      "MACE",
+      "MATE",
+      "MUTE"
+    ]
+  },
+  {
+    "start": "BORE",
+    "target": "GEST",
+    "optimal": 5,
+    "optimalPath": [
+      "BORE",
+      "BARE",
+      "BASE",
+      "BAST",
+      "GAST",
+      "GEST"
+    ]
+  },
+  {
+    "start": "BILK",
+    "target": "GRUM",
+    "optimal": 6,
+    "optimalPath": [
+      "BILK",
+      "BIRK",
+      "BERK",
+      "BERM",
+      "GERM",
+      "GEUM",
+      "GRUM"
+    ]
+  },
+  {
+    "start": "TOPH",
+    "target": "GEES",
+    "optimal": 4,
+    "optimalPath": [
+      "TOPH",
+      "TOPS",
+      "TOES",
+      "TEES",
+      "GEES"
+    ]
+  },
+  {
+    "start": "BELT",
+    "target": "MAWS",
+    "optimal": 4,
+    "optimalPath": [
+      "BELT",
+      "BELS",
+      "MELS",
+      "MEWS",
+      "MAWS"
+    ]
+  },
+  {
+    "start": "JILL",
+    "target": "MAUD",
+    "optimal": 4,
+    "optimalPath": [
+      "JILL",
+      "MILL",
+      "MALL",
+      "MAUL",
+      "MAUD"
+    ]
+  },
+  {
+    "start": "JOWS",
+    "target": "CIST",
+    "optimal": 4,
+    "optimalPath": [
+      "JOWS",
+      "JOSS",
+      "COSS",
+      "COST",
+      "CIST"
+    ]
+  },
+  {
+    "start": "CODE",
+    "target": "MAID",
+    "optimal": 5,
+    "optimalPath": [
+      "CODE",
+      "CADE",
+      "CARE",
+      "CARD",
+      "CAID",
+      "MAID"
+    ]
+  },
+  {
+    "start": "EAVE",
+    "target": "REBS",
+    "optimal": 5,
+    "optimalPath": [
+      "EAVE",
+      "RAVE",
+      "RATE",
+      "RETE",
+      "RETS",
+      "REBS"
+    ]
+  },
+  {
+    "start": "DOPE",
+    "target": "HEMS",
+    "optimal": 4,
+    "optimalPath": [
+      "DOPE",
+      "HOPE",
+      "HOME",
+      "HEME",
+      "HEMS"
+    ]
+  },
+  {
+    "start": "LOOT",
+    "target": "BUNG",
+    "optimal": 5,
+    "optimalPath": [
+      "LOOT",
+      "LOST",
+      "LUST",
+      "LUNT",
+      "LUNG",
+      "BUNG"
+    ]
+  },
+  {
+    "start": "BULK",
+    "target": "LUES",
+    "optimal": 5,
+    "optimalPath": [
+      "BULK",
+      "BULL",
+      "DULL",
+      "DUEL",
+      "DUES",
+      "LUES"
+    ]
+  },
+  {
+    "start": "COWY",
+    "target": "HOTS",
+    "optimal": 3,
+    "optimalPath": [
+      "COWY",
+      "COWS",
+      "COTS",
+      "HOTS"
+    ]
+  },
+  {
+    "start": "MUSE",
+    "target": "PLAT",
+    "optimal": 6,
+    "optimalPath": [
+      "MUSE",
+      "MUST",
+      "MIST",
+      "FIST",
+      "FIAT",
+      "FLAT",
+      "PLAT"
+    ]
+  },
+  {
+    "start": "PEON",
+    "target": "BANS",
+    "optimal": 5,
+    "optimalPath": [
+      "PEON",
+      "POON",
+      "POOS",
+      "PONS",
+      "PANS",
+      "BANS"
+    ]
+  },
+  {
+    "start": "RAKE",
+    "target": "NAPA",
+    "optimal": 3,
+    "optimalPath": [
+      "RAKE",
+      "RAPE",
+      "NAPE",
+      "NAPA"
+    ]
+  },
+  {
+    "start": "TALK",
+    "target": "HORN",
+    "optimal": 5,
+    "optimalPath": [
+      "TALK",
+      "TALE",
+      "TARE",
+      "TORE",
+      "TORN",
+      "HORN"
+    ]
+  },
+  {
+    "start": "LUNG",
+    "target": "TORS",
+    "optimal": 4,
+    "optimalPath": [
+      "LUNG",
+      "TUNG",
+      "TONG",
+      "TONS",
+      "TORS"
+    ]
+  },
+  {
+    "start": "FULL",
+    "target": "BANS",
+    "optimal": 4,
+    "optimalPath": [
+      "FULL",
+      "FALL",
+      "BALL",
+      "BALS",
+      "BANS"
+    ]
+  },
+  {
+    "start": "COPE",
+    "target": "TINY",
+    "optimal": 4,
+    "optimalPath": [
+      "COPE",
+      "CONE",
+      "TONE",
+      "TINE",
+      "TINY"
+    ]
+  },
+  {
+    "start": "PHAT",
+    "target": "KEEK",
+    "optimal": 4,
+    "optimalPath": [
+      "PHAT",
+      "KHAT",
+      "KHET",
+      "KEET",
+      "KEEK"
+    ]
+  },
+  {
+    "start": "HEAD",
+    "target": "MOSH",
+    "optimal": 5,
+    "optimalPath": [
+      "HEAD",
+      "HEAT",
+      "HEST",
+      "HOST",
+      "MOST",
+      "MOSH"
+    ]
+  },
+  {
+    "start": "SHEW",
+    "target": "DELL",
+    "optimal": 5,
+    "optimalPath": [
+      "SHEW",
+      "SHES",
+      "SEES",
+      "DEES",
+      "DELS",
+      "DELL"
+    ]
+  },
+  {
+    "start": "POUR",
+    "target": "DUCE",
+    "optimal": 5,
+    "optimalPath": [
+      "POUR",
+      "DOUR",
+      "DORR",
+      "DORE",
+      "DURE",
+      "DUCE"
+    ]
+  },
+  {
+    "start": "PERT",
+    "target": "PIPE",
+    "optimal": 4,
+    "optimalPath": [
+      "PERT",
+      "PENT",
+      "PINT",
+      "PINE",
+      "PIPE"
+    ]
+  },
+  {
+    "start": "DOPY",
+    "target": "WOES",
+    "optimal": 4,
+    "optimalPath": [
+      "DOPY",
+      "MOPY",
+      "MOPS",
+      "WOPS",
+      "WOES"
+    ]
+  },
+  {
+    "start": "HULK",
+    "target": "MAKE",
+    "optimal": 5,
+    "optimalPath": [
+      "HULK",
+      "HOLK",
+      "HOLE",
+      "HOKE",
+      "HAKE",
+      "MAKE"
+    ]
+  },
+  {
+    "start": "GOOP",
+    "target": "FOYS",
+    "optimal": 3,
+    "optimalPath": [
+      "GOOP",
+      "GOOS",
+      "GOYS",
+      "FOYS"
+    ]
+  },
+  {
+    "start": "PETS",
+    "target": "HOOF",
+    "optimal": 4,
+    "optimalPath": [
+      "PETS",
+      "POTS",
+      "POOS",
+      "POOF",
+      "HOOF"
+    ]
+  },
+  {
+    "start": "SILL",
+    "target": "AGEE",
+    "optimal": 7,
+    "optimalPath": [
+      "SILL",
+      "SELL",
+      "SEEL",
+      "SEEP",
+      "SKEP",
+      "SKEE",
+      "AKEE",
+      "AGEE"
+    ]
+  },
+  {
+    "start": "JOLE",
+    "target": "BRIG",
+    "optimal": 6,
+    "optimalPath": [
+      "JOLE",
+      "BOLE",
+      "BOLT",
+      "BOUT",
+      "BRUT",
+      "BRIT",
+      "BRIG"
+    ]
+  },
+  {
+    "start": "PEAK",
+    "target": "LORE",
+    "optimal": 4,
+    "optimalPath": [
+      "PEAK",
+      "PERK",
+      "PORK",
+      "PORE",
+      "LORE"
+    ]
+  },
+  {
+    "start": "BOTA",
+    "target": "DEWS",
+    "optimal": 4,
+    "optimalPath": [
+      "BOTA",
+      "BOTS",
+      "BOWS",
+      "DOWS",
+      "DEWS"
+    ]
+  },
+  {
+    "start": "VAVS",
+    "target": "DELS",
+    "optimal": 4,
+    "optimalPath": [
+      "VAVS",
+      "VANS",
+      "DANS",
+      "DENS",
+      "DELS"
+    ]
+  },
+  {
+    "start": "PUCK",
+    "target": "COWY",
+    "optimal": 5,
+    "optimalPath": [
+      "PUCK",
+      "PUNK",
+      "PUNY",
+      "PONY",
+      "CONY",
+      "COWY"
+    ]
+  },
+  {
+    "start": "BEAT",
+    "target": "TREE",
+    "optimal": 4,
+    "optimalPath": [
+      "BEAT",
+      "BRAT",
+      "BRAE",
+      "BREE",
+      "TREE"
+    ]
+  },
+  {
+    "start": "YAWN",
+    "target": "FRAP",
+    "optimal": 7,
+    "optimalPath": [
+      "YAWN",
+      "FAWN",
+      "FAIN",
+      "FAIR",
+      "FLIR",
+      "FLIP",
+      "FLAP",
+      "FRAP"
+    ]
+  },
+  {
+    "start": "ZING",
+    "target": "BOLL",
+    "optimal": 5,
+    "optimalPath": [
+      "ZING",
+      "ZINE",
+      "BINE",
+      "BILE",
+      "BOLE",
+      "BOLL"
+    ]
+  },
+  {
+    "start": "HEAR",
+    "target": "TALE",
+    "optimal": 5,
+    "optimalPath": [
+      "HEAR",
+      "HAAR",
+      "HAAF",
+      "HALF",
+      "HALE",
+      "TALE"
+    ]
+  },
+  {
+    "start": "SOCA",
+    "target": "ZIGS",
+    "optimal": 6,
+    "optimalPath": [
+      "SOCA",
+      "SODA",
+      "SODS",
+      "RODS",
+      "RIDS",
+      "RIGS",
+      "ZIGS"
+    ]
+  },
+  {
+    "start": "WABS",
+    "target": "FOIL",
+    "optimal": 5,
+    "optimalPath": [
+      "WABS",
+      "WAWS",
+      "WAWL",
+      "WAIL",
+      "FAIL",
+      "FOIL"
+    ]
+  },
+  {
+    "start": "PEHS",
+    "target": "SATE",
+    "optimal": 4,
+    "optimalPath": [
+      "PEHS",
+      "PETS",
+      "PATS",
+      "PATE",
+      "SATE"
+    ]
+  },
+  {
+    "start": "YAWN",
+    "target": "KOOK",
+    "optimal": 5,
+    "optimalPath": [
+      "YAWN",
+      "SAWN",
+      "SOWN",
+      "SOON",
+      "SOOK",
+      "KOOK"
+    ]
+  },
+  {
+    "start": "BELS",
+    "target": "VILE",
+    "optimal": 4,
+    "optimalPath": [
+      "BELS",
+      "BALS",
+      "BALE",
+      "BILE",
+      "VILE"
+    ]
+  },
+  {
+    "start": "AXES",
+    "target": "GILT",
+    "optimal": 6,
+    "optimalPath": [
+      "AXES",
+      "AYES",
+      "TYES",
+      "TIES",
+      "TILS",
+      "TILT",
+      "GILT"
+    ]
+  },
+  {
+    "start": "TOES",
+    "target": "GENE",
+    "optimal": 4,
+    "optimalPath": [
+      "TOES",
+      "TEES",
+      "GEES",
+      "GENS",
+      "GENE"
+    ]
+  },
+  {
+    "start": "BURD",
+    "target": "VIDE",
+    "optimal": 5,
+    "optimalPath": [
+      "BURD",
+      "BARD",
+      "BARE",
+      "BADE",
+      "BIDE",
+      "VIDE"
+    ]
+  },
+  {
+    "start": "FARM",
+    "target": "MANS",
+    "optimal": 4,
+    "optimalPath": [
+      "FARM",
+      "FART",
+      "MART",
+      "MARS",
+      "MANS"
+    ]
+  },
+  {
+    "start": "NUNS",
+    "target": "REEK",
+    "optimal": 4,
+    "optimalPath": [
+      "NUNS",
+      "RUNS",
+      "RUES",
+      "REES",
+      "REEK"
+    ]
+  },
+  {
+    "start": "POOL",
+    "target": "BELL",
+    "optimal": 3,
+    "optimalPath": [
+      "POOL",
+      "POLL",
+      "BOLL",
+      "BELL"
+    ]
+  },
+  {
+    "start": "NEGS",
+    "target": "HACK",
+    "optimal": 5,
+    "optimalPath": [
+      "NEGS",
+      "LEGS",
+      "LAGS",
+      "LACS",
+      "LACK",
+      "HACK"
+    ]
+  },
+  {
+    "start": "LEAD",
+    "target": "BUNS",
+    "optimal": 4,
+    "optimalPath": [
+      "LEAD",
+      "LEND",
+      "LENS",
+      "BENS",
+      "BUNS"
+    ]
+  },
+  {
+    "start": "BABE",
+    "target": "RECS",
+    "optimal": 5,
+    "optimalPath": [
+      "BABE",
+      "BADE",
+      "BADS",
+      "RADS",
+      "REDS",
+      "RECS"
+    ]
+  },
+  {
+    "start": "SHUT",
+    "target": "FRIT",
+    "optimal": 4,
+    "optimalPath": [
+      "SHUT",
+      "BHUT",
+      "BRUT",
+      "BRIT",
+      "FRIT"
+    ]
+  },
+  {
+    "start": "MASK",
+    "target": "MOPS",
+    "optimal": 3,
+    "optimalPath": [
+      "MASK",
+      "MOSK",
+      "MOSS",
+      "MOPS"
+    ]
+  },
+  {
+    "start": "SAGE",
+    "target": "SORT",
+    "optimal": 4,
+    "optimalPath": [
+      "SAGE",
+      "SAKE",
+      "SOKE",
+      "SORE",
+      "SORT"
+    ]
+  },
+  {
+    "start": "POSY",
+    "target": "MANS",
+    "optimal": 4,
+    "optimalPath": [
+      "POSY",
+      "PONY",
+      "MONY",
+      "MONS",
+      "MANS"
+    ]
+  },
+  {
+    "start": "WARK",
+    "target": "SWAN",
+    "optimal": 6,
+    "optimalPath": [
+      "WARK",
+      "WARN",
+      "WAIN",
+      "SAIN",
+      "SPIN",
+      "SPAN",
+      "SWAN"
+    ]
+  },
+  {
+    "start": "CHIT",
+    "target": "CABS",
+    "optimal": 5,
+    "optimalPath": [
+      "CHIT",
+      "CHID",
+      "CAID",
+      "CARD",
+      "CARS",
+      "CABS"
+    ]
+  },
+  {
+    "start": "MIME",
+    "target": "HAES",
+    "optimal": 5,
+    "optimalPath": [
+      "MIME",
+      "MOME",
+      "HOME",
+      "HAME",
+      "HAMS",
+      "HAES"
+    ]
+  },
+  {
+    "start": "GRAY",
+    "target": "SKIM",
+    "optimal": 5,
+    "optimalPath": [
+      "GRAY",
+      "GRAM",
+      "GLAM",
+      "SLAM",
+      "SLIM",
+      "SKIM"
+    ]
+  },
+  {
+    "start": "PUGS",
+    "target": "JILT",
+    "optimal": 5,
+    "optimalPath": [
+      "PUGS",
+      "PULS",
+      "PULL",
+      "PILL",
+      "JILL",
+      "JILT"
+    ]
+  },
+  {
+    "start": "GILT",
+    "target": "LEGS",
+    "optimal": 5,
+    "optimalPath": [
+      "GILT",
+      "TILT",
+      "TILS",
+      "TELS",
+      "TEGS",
+      "LEGS"
+    ]
+  },
+  {
+    "start": "TEAK",
+    "target": "NOPE",
+    "optimal": 6,
+    "optimalPath": [
+      "TEAK",
+      "TEAS",
+      "TEDS",
+      "TODS",
+      "NODS",
+      "NODE",
+      "NOPE"
+    ]
+  },
+  {
+    "start": "MULE",
+    "target": "SARI",
+    "optimal": 5,
+    "optimalPath": [
+      "MULE",
+      "MURE",
+      "MURK",
+      "MARK",
+      "SARK",
+      "SARI"
+    ]
+  },
+  {
+    "start": "BICE",
+    "target": "BEND",
+    "optimal": 3,
+    "optimalPath": [
+      "BICE",
+      "BINE",
+      "BIND",
+      "BEND"
+    ]
+  },
+  {
+    "start": "HERN",
+    "target": "PASE",
+    "optimal": 4,
+    "optimalPath": [
+      "HERN",
+      "HERE",
+      "HARE",
+      "PARE",
+      "PASE"
+    ]
+  },
+  {
+    "start": "NEEP",
+    "target": "HOKE",
+    "optimal": 6,
+    "optimalPath": [
+      "NEEP",
+      "NEAP",
+      "HEAP",
+      "HELP",
+      "HOLP",
+      "HOLE",
+      "HOKE"
+    ]
+  },
+  {
+    "start": "MEMS",
+    "target": "DIAL",
+    "optimal": 5,
+    "optimalPath": [
+      "MEMS",
+      "MELS",
+      "DELS",
+      "DELL",
+      "DEAL",
+      "DIAL"
+    ]
+  },
+  {
+    "start": "TORT",
+    "target": "PAID",
+    "optimal": 4,
+    "optimalPath": [
+      "TORT",
+      "TART",
+      "PART",
+      "PARD",
+      "PAID"
+    ]
+  },
+  {
+    "start": "LUGS",
+    "target": "RAID",
+    "optimal": 4,
+    "optimalPath": [
+      "LUGS",
+      "LAGS",
+      "RAGS",
+      "RAIS",
+      "RAID"
+    ]
+  },
+  {
+    "start": "WARE",
+    "target": "KINO",
+    "optimal": 4,
+    "optimalPath": [
+      "WARE",
+      "WIRE",
+      "WINE",
+      "KINE",
+      "KINO"
+    ]
+  },
+  {
+    "start": "SOUL",
+    "target": "ZILL",
+    "optimal": 4,
+    "optimalPath": [
+      "SOUL",
+      "SAUL",
+      "SALL",
+      "SILL",
+      "ZILL"
+    ]
+  },
+  {
+    "start": "SPOT",
+    "target": "LARS",
+    "optimal": 6,
+    "optimalPath": [
+      "SPOT",
+      "SOOT",
+      "COOT",
+      "COOS",
+      "CORS",
+      "CARS",
+      "LARS"
+    ]
+  },
+  {
+    "start": "HENT",
+    "target": "RICK",
+    "optimal": 5,
+    "optimalPath": [
+      "HENT",
+      "HENS",
+      "HINS",
+      "RINS",
+      "RINK",
+      "RICK"
+    ]
+  },
+  {
+    "start": "SALS",
+    "target": "CINE",
+    "optimal": 4,
+    "optimalPath": [
+      "SALS",
+      "SANS",
+      "CANS",
+      "CANE",
+      "CINE"
+    ]
+  },
+  {
+    "start": "SEEK",
+    "target": "BALE",
+    "optimal": 5,
+    "optimalPath": [
+      "SEEK",
+      "SEEL",
+      "SELL",
+      "BELL",
+      "BALL",
+      "BALE"
+    ]
+  },
+  {
+    "start": "WEAL",
+    "target": "DYES",
+    "optimal": 4,
+    "optimalPath": [
+      "WEAL",
+      "WEEL",
+      "WEES",
+      "DEES",
+      "DYES"
+    ]
+  },
+  {
+    "start": "LENT",
+    "target": "GIRL",
+    "optimal": 5,
+    "optimalPath": [
+      "LENT",
+      "LINT",
+      "DINT",
+      "DIRT",
+      "DIRL",
+      "GIRL"
+    ]
+  },
+  {
+    "start": "PLEW",
+    "target": "GOSH",
+    "optimal": 6,
+    "optimalPath": [
+      "PLEW",
+      "PLOW",
+      "PLOP",
+      "POOP",
+      "POOH",
+      "POSH",
+      "GOSH"
+    ]
+  },
+  {
+    "start": "STEW",
+    "target": "AIDS",
+    "optimal": 7,
+    "optimalPath": [
+      "STEW",
+      "STET",
+      "SUET",
+      "SUES",
+      "SUMS",
+      "SIMS",
+      "AIMS",
+      "AIDS"
+    ]
+  },
+  {
+    "start": "DALE",
+    "target": "DOUR",
+    "optimal": 4,
+    "optimalPath": [
+      "DALE",
+      "DARE",
+      "DORE",
+      "DORR",
+      "DOUR"
+    ]
+  },
+  {
+    "start": "GORE",
+    "target": "PURR",
+    "optimal": 3,
+    "optimalPath": [
+      "GORE",
+      "PORE",
+      "PURE",
+      "PURR"
+    ]
+  },
+  {
+    "start": "OATS",
+    "target": "GIRT",
+    "optimal": 6,
+    "optimalPath": [
+      "OATS",
+      "ORTS",
+      "ARTS",
+      "AITS",
+      "AIRS",
+      "AIRT",
+      "GIRT"
+    ]
+  },
+  {
+    "start": "CORY",
+    "target": "DEAD",
+    "optimal": 5,
+    "optimalPath": [
+      "CORY",
+      "LORY",
+      "LORD",
+      "LOAD",
+      "LEAD",
+      "DEAD"
+    ]
+  },
+  {
+    "start": "POOS",
+    "target": "MIDS",
+    "optimal": 3,
+    "optimalPath": [
+      "POOS",
+      "MOOS",
+      "MODS",
+      "MIDS"
+    ]
+  },
+  {
+    "start": "PING",
+    "target": "GOAD",
+    "optimal": 5,
+    "optimalPath": [
+      "PING",
+      "PONG",
+      "POND",
+      "POOD",
+      "GOOD",
+      "GOAD"
+    ]
+  },
+  {
+    "start": "LIFT",
+    "target": "BOGS",
+    "optimal": 5,
+    "optimalPath": [
+      "LIFT",
+      "LIST",
+      "LOST",
+      "LOSS",
+      "LOGS",
+      "BOGS"
+    ]
+  },
+  {
+    "start": "MURA",
+    "target": "BULK",
+    "optimal": 4,
+    "optimalPath": [
+      "MURA",
+      "MURK",
+      "MUSK",
+      "BUSK",
+      "BULK"
+    ]
+  },
+  {
+    "start": "VARS",
+    "target": "WEEL",
+    "optimal": 4,
+    "optimalPath": [
+      "VARS",
+      "WARS",
+      "WAES",
+      "WEES",
+      "WEEL"
+    ]
+  },
+  {
+    "start": "CUNT",
+    "target": "PHAT",
+    "optimal": 4,
+    "optimalPath": [
+      "CUNT",
+      "PUNT",
+      "PENT",
+      "PEAT",
+      "PHAT"
+    ]
+  },
+  {
+    "start": "DEFT",
+    "target": "KEFS",
+    "optimal": 3,
+    "optimalPath": [
+      "DEFT",
+      "REFT",
+      "REFS",
+      "KEFS"
+    ]
+  },
+  {
+    "start": "DICK",
+    "target": "BIND",
+    "optimal": 4,
+    "optimalPath": [
+      "DICK",
+      "DIRK",
+      "BIRK",
+      "BIRD",
+      "BIND"
+    ]
+  },
+  {
+    "start": "YOCK",
+    "target": "VINO",
+    "optimal": 5,
+    "optimalPath": [
+      "YOCK",
+      "LOCK",
+      "LICK",
+      "LINK",
+      "LINO",
+      "VINO"
+    ]
+  },
+  {
+    "start": "HIRE",
+    "target": "EASE",
+    "optimal": 4,
+    "optimalPath": [
+      "HIRE",
+      "CIRE",
+      "CARE",
+      "CASE",
+      "EASE"
+    ]
+  },
+  {
+    "start": "CURR",
+    "target": "BOSS",
+    "optimal": 4,
+    "optimalPath": [
+      "CURR",
+      "CURS",
+      "CORS",
+      "COSS",
+      "BOSS"
+    ]
+  },
+  {
+    "start": "REES",
+    "target": "NOON",
+    "optimal": 5,
+    "optimalPath": [
+      "REES",
+      "ROES",
+      "GOES",
+      "GOOS",
+      "GOON",
+      "NOON"
+    ]
+  },
+  {
+    "start": "PEAS",
+    "target": "DELE",
+    "optimal": 4,
+    "optimalPath": [
+      "PEAS",
+      "PEAL",
+      "DEAL",
+      "DELL",
+      "DELE"
+    ]
+  },
+  {
+    "start": "WINO",
+    "target": "LETS",
+    "optimal": 4,
+    "optimalPath": [
+      "WINO",
+      "WINS",
+      "WITS",
+      "WETS",
+      "LETS"
+    ]
+  },
+  {
+    "start": "KIST",
+    "target": "LILO",
+    "optimal": 3,
+    "optimalPath": [
+      "KIST",
+      "LIST",
+      "LILT",
+      "LILO"
+    ]
+  },
+  {
+    "start": "PUBS",
+    "target": "PINK",
+    "optimal": 3,
+    "optimalPath": [
+      "PUBS",
+      "PUNS",
+      "PINS",
+      "PINK"
+    ]
+  },
+  {
+    "start": "LITE",
+    "target": "BENE",
+    "optimal": 3,
+    "optimalPath": [
+      "LITE",
+      "BITE",
+      "BINE",
+      "BENE"
+    ]
+  },
+  {
+    "start": "WAIL",
+    "target": "DIAL",
+    "optimal": 4,
+    "optimalPath": [
+      "WAIL",
+      "WALL",
+      "WILL",
+      "DILL",
+      "DIAL"
+    ]
+  },
+  {
+    "start": "PROF",
+    "target": "BAAS",
+    "optimal": 4,
+    "optimalPath": [
+      "PROF",
+      "PROS",
+      "BROS",
+      "BRAS",
+      "BAAS"
+    ]
+  },
+  {
+    "start": "BOTS",
+    "target": "TENT",
+    "optimal": 4,
+    "optimalPath": [
+      "BOTS",
+      "TOTS",
+      "TETS",
+      "TENS",
+      "TENT"
+    ]
+  },
+  {
+    "start": "BATS",
+    "target": "MEAD",
+    "optimal": 5,
+    "optimalPath": [
+      "BATS",
+      "BAAS",
+      "BRAS",
+      "BRAD",
+      "BEAD",
+      "MEAD"
+    ]
+  },
+  {
+    "start": "FAYS",
+    "target": "LUNA",
+    "optimal": 5,
+    "optimalPath": [
+      "FAYS",
+      "LAYS",
+      "LAMS",
+      "LUMS",
+      "LUMA",
+      "LUNA"
+    ]
+  },
+  {
+    "start": "BEET",
+    "target": "CADE",
+    "optimal": 5,
+    "optimalPath": [
+      "BEET",
+      "BEES",
+      "BEDS",
+      "BADS",
+      "CADS",
+      "CADE"
+    ]
+  },
+  {
+    "start": "CIGS",
+    "target": "TORS",
+    "optimal": 3,
+    "optimalPath": [
+      "CIGS",
+      "COGS",
+      "CORS",
+      "TORS"
+    ]
+  },
+  {
+    "start": "REBS",
+    "target": "DOTS",
+    "optimal": 3,
+    "optimalPath": [
+      "REBS",
+      "RETS",
+      "ROTS",
+      "DOTS"
+    ]
+  },
+  {
+    "start": "PUKE",
+    "target": "PUNT",
+    "optimal": 4,
+    "optimalPath": [
+      "PUKE",
+      "PURE",
+      "PURS",
+      "PUNS",
+      "PUNT"
+    ]
+  },
+  {
+    "start": "REES",
+    "target": "FILS",
+    "optimal": 4,
+    "optimalPath": [
+      "REES",
+      "RETS",
+      "FETS",
+      "FITS",
+      "FILS"
+    ]
+  },
+  {
+    "start": "COWS",
+    "target": "GUMS",
+    "optimal": 4,
+    "optimalPath": [
+      "COWS",
+      "CAWS",
+      "CAMS",
+      "GAMS",
+      "GUMS"
+    ]
+  },
+  {
+    "start": "COSS",
+    "target": "REED",
+    "optimal": 4,
+    "optimalPath": [
+      "COSS",
+      "CESS",
+      "CEES",
+      "REES",
+      "REED"
+    ]
+  },
+  {
+    "start": "SALL",
+    "target": "WAGE",
+    "optimal": 3,
+    "optimalPath": [
+      "SALL",
+      "WALL",
+      "WALE",
+      "WAGE"
+    ]
+  },
+  {
+    "start": "TANS",
+    "target": "HOWL",
+    "optimal": 4,
+    "optimalPath": [
+      "TANS",
+      "TAWS",
+      "TOWS",
+      "HOWS",
+      "HOWL"
+    ]
+  },
+  {
+    "start": "REFS",
+    "target": "FIRN",
+    "optimal": 5,
+    "optimalPath": [
+      "REFS",
+      "RETS",
+      "FETS",
+      "FITS",
+      "FIRS",
+      "FIRN"
+    ]
+  },
+  {
+    "start": "BINE",
+    "target": "TOFT",
+    "optimal": 5,
+    "optimalPath": [
+      "BINE",
+      "BINT",
+      "LINT",
+      "LIFT",
+      "LOFT",
+      "TOFT"
+    ]
+  },
+  {
+    "start": "DOLL",
+    "target": "HAME",
+    "optimal": 4,
+    "optimalPath": [
+      "DOLL",
+      "DOLE",
+      "HOLE",
+      "HALE",
+      "HAME"
+    ]
+  },
+  {
+    "start": "SOON",
+    "target": "MUFF",
+    "optimal": 5,
+    "optimalPath": [
+      "SOON",
+      "COON",
+      "COOF",
+      "COFF",
+      "CUFF",
+      "MUFF"
+    ]
+  },
+  {
+    "start": "BARM",
+    "target": "HAME",
+    "optimal": 3,
+    "optimalPath": [
+      "BARM",
+      "BARE",
+      "HARE",
+      "HAME"
+    ]
+  },
+  {
+    "start": "LONE",
+    "target": "WAGE",
+    "optimal": 3,
+    "optimalPath": [
+      "LONE",
+      "LANE",
+      "WANE",
+      "WAGE"
+    ]
+  },
+  {
+    "start": "COWS",
+    "target": "TORI",
+    "optimal": 3,
+    "optimalPath": [
+      "COWS",
+      "TOWS",
+      "TORS",
+      "TORI"
+    ]
+  },
+  {
+    "start": "MASK",
+    "target": "TETS",
+    "optimal": 4,
+    "optimalPath": [
+      "MASK",
+      "MASS",
+      "MATS",
+      "TATS",
+      "TETS"
+    ]
+  },
+  {
+    "start": "VACS",
+    "target": "ANAS",
+    "optimal": 6,
+    "optimalPath": [
+      "VACS",
+      "LACS",
+      "LADS",
+      "LIDS",
+      "AIDS",
+      "ANDS",
+      "ANAS"
+    ]
+  },
+  {
+    "start": "SPIN",
+    "target": "TRAY",
+    "optimal": 6,
+    "optimalPath": [
+      "SPIN",
+      "SPAN",
+      "SPAM",
+      "SEAM",
+      "TEAM",
+      "TRAM",
+      "TRAY"
+    ]
+  },
+  {
+    "start": "DIME",
+    "target": "TAMP",
+    "optimal": 3,
+    "optimalPath": [
+      "DIME",
+      "TIME",
+      "TAME",
+      "TAMP"
+    ]
+  },
+  {
+    "start": "BORK",
+    "target": "GOAT",
+    "optimal": 3,
+    "optimalPath": [
+      "BORK",
+      "BORT",
+      "BOAT",
+      "GOAT"
+    ]
+  },
+  {
+    "start": "WANT",
+    "target": "TOYS",
+    "optimal": 4,
+    "optimalPath": [
+      "WANT",
+      "WANS",
+      "TANS",
+      "TONS",
+      "TOYS"
+    ]
+  },
+  {
+    "start": "COWS",
+    "target": "HIMS",
+    "optimal": 4,
+    "optimalPath": [
+      "COWS",
+      "CAWS",
+      "HAWS",
+      "HAMS",
+      "HIMS"
+    ]
+  },
+  {
+    "start": "NEBS",
+    "target": "THEW",
+    "optimal": 6,
+    "optimalPath": [
+      "NEBS",
+      "NUBS",
+      "SUBS",
+      "SUES",
+      "SHES",
+      "SHEW",
+      "THEW"
+    ]
+  },
+  {
+    "start": "TOUR",
+    "target": "CELL",
+    "optimal": 6,
+    "optimalPath": [
+      "TOUR",
+      "FOUR",
+      "FOUL",
+      "FOAL",
+      "FEAL",
+      "FELL",
+      "CELL"
+    ]
+  },
+  {
+    "start": "COLY",
+    "target": "GOAT",
+    "optimal": 3,
+    "optimalPath": [
+      "COLY",
+      "COLT",
+      "COAT",
+      "GOAT"
+    ]
+  },
+  {
+    "start": "MUSK",
+    "target": "PEAK",
+    "optimal": 4,
+    "optimalPath": [
+      "MUSK",
+      "MURK",
+      "MERK",
+      "PERK",
+      "PEAK"
+    ]
+  },
+  {
+    "start": "FEDS",
+    "target": "GLEE",
+    "optimal": 5,
+    "optimalPath": [
+      "FEDS",
+      "GEDS",
+      "GEES",
+      "GEED",
+      "GLED",
+      "GLEE"
+    ]
+  },
+  {
+    "start": "MOBS",
+    "target": "SATE",
+    "optimal": 4,
+    "optimalPath": [
+      "MOBS",
+      "SOBS",
+      "SABS",
+      "SABE",
+      "SATE"
+    ]
+  },
+  {
+    "start": "HEHS",
+    "target": "LAMB",
+    "optimal": 4,
+    "optimalPath": [
+      "HEHS",
+      "HAHS",
+      "HAMS",
+      "LAMS",
+      "LAMB"
+    ]
+  },
+  {
+    "start": "LOVE",
+    "target": "JURA",
+    "optimal": 5,
+    "optimalPath": [
+      "LOVE",
+      "LOBE",
+      "LUBE",
+      "JUBE",
+      "JUBA",
+      "JURA"
+    ]
+  },
+  {
+    "start": "ZONE",
+    "target": "BODS",
+    "optimal": 3,
+    "optimalPath": [
+      "ZONE",
+      "BONE",
+      "BODE",
+      "BODS"
+    ]
+  },
+  {
+    "start": "GITE",
+    "target": "MOLT",
+    "optimal": 4,
+    "optimalPath": [
+      "GITE",
+      "MITE",
+      "MITT",
+      "MOTT",
+      "MOLT"
+    ]
+  },
+  {
+    "start": "DYES",
+    "target": "TYRO",
+    "optimal": 4,
+    "optimalPath": [
+      "DYES",
+      "TYES",
+      "TYEE",
+      "TYRE",
+      "TYRO"
+    ]
+  },
+  {
+    "start": "SPAS",
+    "target": "WILD",
+    "optimal": 6,
+    "optimalPath": [
+      "SPAS",
+      "SEAS",
+      "SEAL",
+      "SELL",
+      "SILL",
+      "WILL",
+      "WILD"
+    ]
+  },
+  {
+    "start": "BYES",
+    "target": "NOME",
+    "optimal": 5,
+    "optimalPath": [
+      "BYES",
+      "WYES",
+      "WOES",
+      "NOES",
+      "NOMS",
+      "NOME"
+    ]
+  },
+  {
+    "start": "STEW",
+    "target": "TAPA",
+    "optimal": 7,
+    "optimalPath": [
+      "STEW",
+      "STET",
+      "SUET",
+      "SUES",
+      "SUPS",
+      "TUPS",
+      "TAPS",
+      "TAPA"
+    ]
+  },
+  {
+    "start": "ROCK",
+    "target": "CORM",
+    "optimal": 3,
+    "optimalPath": [
+      "ROCK",
+      "COCK",
+      "CORK",
+      "CORM"
+    ]
+  },
+  {
+    "start": "KENT",
+    "target": "SINE",
+    "optimal": 3,
+    "optimalPath": [
+      "KENT",
+      "SENT",
+      "SENE",
+      "SINE"
+    ]
+  },
+  {
+    "start": "SINK",
+    "target": "PACK",
+    "optimal": 3,
+    "optimalPath": [
+      "SINK",
+      "PINK",
+      "PICK",
+      "PACK"
+    ]
+  },
+  {
+    "start": "FOPS",
+    "target": "GUCK",
+    "optimal": 5,
+    "optimalPath": [
+      "FOPS",
+      "FONS",
+      "FUNS",
+      "GUNS",
+      "GUNK",
+      "GUCK"
+    ]
+  },
+  {
+    "start": "CAPE",
+    "target": "SINS",
+    "optimal": 4,
+    "optimalPath": [
+      "CAPE",
+      "CAPS",
+      "CANS",
+      "SANS",
+      "SINS"
+    ]
+  },
+  {
+    "start": "DOCS",
+    "target": "SALL",
+    "optimal": 4,
+    "optimalPath": [
+      "DOCS",
+      "DOLS",
+      "SOLS",
+      "SALS",
+      "SALL"
+    ]
+  },
+  {
+    "start": "TROG",
+    "target": "RAMS",
+    "optimal": 6,
+    "optimalPath": [
+      "TROG",
+      "PROG",
+      "PROS",
+      "POOS",
+      "POMS",
+      "PAMS",
+      "RAMS"
+    ]
+  },
+  {
+    "start": "FLEX",
+    "target": "MEAD",
+    "optimal": 4,
+    "optimalPath": [
+      "FLEX",
+      "FLED",
+      "FEED",
+      "MEED",
+      "MEAD"
+    ]
+  },
+  {
+    "start": "RETS",
+    "target": "BRAG",
+    "optimal": 5,
+    "optimalPath": [
+      "RETS",
+      "ROTS",
+      "BOTS",
+      "BOAS",
+      "BRAS",
+      "BRAG"
+    ]
+  },
+  {
+    "start": "KITS",
+    "target": "WAUL",
+    "optimal": 5,
+    "optimalPath": [
+      "KITS",
+      "KATS",
+      "WATS",
+      "WAWS",
+      "WAWL",
+      "WAUL"
+    ]
+  },
+  {
+    "start": "SAPS",
+    "target": "ARCS",
+    "optimal": 5,
+    "optimalPath": [
+      "SAPS",
+      "SUPS",
+      "SUKS",
+      "AUKS",
+      "ARKS",
+      "ARCS"
+    ]
+  },
+  {
+    "start": "COLY",
+    "target": "FUDS",
+    "optimal": 4,
+    "optimalPath": [
+      "COLY",
+      "COLS",
+      "CODS",
+      "CUDS",
+      "FUDS"
+    ]
+  },
+  {
+    "start": "HOUR",
+    "target": "KIKE",
+    "optimal": 6,
+    "optimalPath": [
+      "HOUR",
+      "TOUR",
+      "TORR",
+      "TORE",
+      "TOKE",
+      "TIKE",
+      "KIKE"
+    ]
+  },
+  {
+    "start": "ANUS",
+    "target": "KITE",
+    "optimal": 4,
+    "optimalPath": [
+      "ANUS",
+      "ANTS",
+      "AITS",
+      "KITS",
+      "KITE"
+    ]
+  },
+  {
+    "start": "WINK",
+    "target": "BRIM",
+    "optimal": 6,
+    "optimalPath": [
+      "WINK",
+      "WINS",
+      "BINS",
+      "BIAS",
+      "BRAS",
+      "BRIS",
+      "BRIM"
+    ]
+  },
+  {
+    "start": "DORY",
+    "target": "BLUB",
+    "optimal": 6,
+    "optimalPath": [
+      "DORY",
+      "DORM",
+      "DOOM",
+      "BOOM",
+      "BOOB",
+      "BLOB",
+      "BLUB"
+    ]
+  },
+  {
+    "start": "PROG",
+    "target": "RAIN",
+    "optimal": 5,
+    "optimalPath": [
+      "PROG",
+      "GROG",
+      "GRIG",
+      "GRIN",
+      "GAIN",
+      "RAIN"
+    ]
+  },
+  {
+    "start": "TAMP",
+    "target": "WAUL",
+    "optimal": 5,
+    "optimalPath": [
+      "TAMP",
+      "TAMS",
+      "TAWS",
+      "WAWS",
+      "WAWL",
+      "WAUL"
+    ]
+  },
+  {
+    "start": "HIDE",
+    "target": "PEGS",
+    "optimal": 5,
+    "optimalPath": [
+      "HIDE",
+      "BIDE",
+      "BIDS",
+      "BIGS",
+      "BEGS",
+      "PEGS"
+    ]
+  },
+  {
+    "start": "SORT",
+    "target": "BELT",
+    "optimal": 3,
+    "optimalPath": [
+      "SORT",
+      "BORT",
+      "BOLT",
+      "BELT"
+    ]
+  },
+  {
+    "start": "KENT",
+    "target": "SODA",
+    "optimal": 6,
+    "optimalPath": [
+      "KENT",
+      "HENT",
+      "HENS",
+      "HONS",
+      "HODS",
+      "SODS",
+      "SODA"
+    ]
+  },
+  {
+    "start": "TOTS",
+    "target": "LEES",
+    "optimal": 3,
+    "optimalPath": [
+      "TOTS",
+      "TETS",
+      "TEES",
+      "LEES"
+    ]
+  },
+  {
+    "start": "WAFF",
+    "target": "OBES",
+    "optimal": 7,
+    "optimalPath": [
+      "WAFF",
+      "WAFT",
+      "WART",
+      "WARS",
+      "WAES",
+      "WYES",
+      "OYES",
+      "OBES"
+    ]
+  },
+  {
+    "start": "BURR",
+    "target": "HOWK",
+    "optimal": 6,
+    "optimalPath": [
+      "BURR",
+      "BURN",
+      "BARN",
+      "BARK",
+      "HARK",
+      "HAWK",
+      "HOWK"
+    ]
+  },
+  {
+    "start": "SLUE",
+    "target": "MIPS",
+    "optimal": 6,
+    "optimalPath": [
+      "SLUE",
+      "SLUR",
+      "SOUR",
+      "SOUS",
+      "SOPS",
+      "MOPS",
+      "MIPS"
+    ]
+  },
+  {
+    "start": "BOOM",
+    "target": "LILO",
+    "optimal": 6,
+    "optimalPath": [
+      "BOOM",
+      "BOON",
+      "LOON",
+      "LION",
+      "LIMN",
+      "LIMO",
+      "LILO"
+    ]
+  },
+  {
+    "start": "RAID",
+    "target": "HEMS",
+    "optimal": 4,
+    "optimalPath": [
+      "RAID",
+      "RAIS",
+      "REIS",
+      "REMS",
+      "HEMS"
+    ]
+  },
+  {
+    "start": "LOPE",
+    "target": "HEST",
+    "optimal": 4,
+    "optimalPath": [
+      "LOPE",
+      "HOPE",
+      "HOSE",
+      "HOST",
+      "HEST"
+    ]
+  },
+  {
+    "start": "KIFS",
+    "target": "LEIS",
+    "optimal": 4,
+    "optimalPath": [
+      "KIFS",
+      "KINS",
+      "KENS",
+      "LENS",
+      "LEIS"
+    ]
+  },
+  {
+    "start": "PEPS",
+    "target": "ROMS",
+    "optimal": 3,
+    "optimalPath": [
+      "PEPS",
+      "POPS",
+      "POMS",
+      "ROMS"
+    ]
+  },
+  {
+    "start": "MAIL",
+    "target": "NUNS",
+    "optimal": 5,
+    "optimalPath": [
+      "MAIL",
+      "MARL",
+      "MARS",
+      "MANS",
+      "NANS",
+      "NUNS"
+    ]
+  },
+  {
+    "start": "SIMP",
+    "target": "PING",
+    "optimal": 4,
+    "optimalPath": [
+      "SIMP",
+      "SIMA",
+      "PIMA",
+      "PINA",
+      "PING"
+    ]
+  },
+  {
+    "start": "BONE",
+    "target": "CRAM",
+    "optimal": 7,
+    "optimalPath": [
+      "BONE",
+      "TONE",
+      "TONS",
+      "TENS",
+      "TEAS",
+      "TEAM",
+      "TRAM",
+      "CRAM"
+    ]
+  },
+  {
+    "start": "ZINE",
+    "target": "SEAL",
+    "optimal": 5,
+    "optimalPath": [
+      "ZINE",
+      "SINE",
+      "SENE",
+      "SENT",
+      "SEAT",
+      "SEAL"
+    ]
+  },
+  {
+    "start": "CHIT",
+    "target": "SPAM",
+    "optimal": 4,
+    "optimalPath": [
+      "CHIT",
+      "CHAT",
+      "CHAM",
+      "SHAM",
+      "SPAM"
+    ]
+  },
+  {
+    "start": "SOON",
+    "target": "RUTS",
+    "optimal": 5,
+    "optimalPath": [
+      "SOON",
+      "POON",
+      "POOS",
+      "POTS",
+      "ROTS",
+      "RUTS"
+    ]
+  },
+  {
+    "start": "SOUP",
+    "target": "DEAL",
+    "optimal": 5,
+    "optimalPath": [
+      "SOUP",
+      "SOUL",
+      "FOUL",
+      "FOAL",
+      "FEAL",
+      "DEAL"
+    ]
+  },
+  {
+    "start": "JOKE",
+    "target": "RACK",
+    "optimal": 4,
+    "optimalPath": [
+      "JOKE",
+      "JAKE",
+      "RAKE",
+      "RACE",
+      "RACK"
+    ]
+  },
+  {
+    "start": "SWAP",
+    "target": "RAGE",
+    "optimal": 7,
+    "optimalPath": [
+      "SWAP",
+      "SWAT",
+      "SEAT",
+      "SEAS",
+      "SEGS",
+      "REGS",
+      "RAGS",
+      "RAGE"
+    ]
+  },
+  {
+    "start": "SAFE",
+    "target": "PORK",
+    "optimal": 5,
+    "optimalPath": [
+      "SAFE",
+      "SAKE",
+      "SOKE",
+      "POKE",
+      "PORE",
+      "PORK"
+    ]
+  },
+  {
+    "start": "FLED",
+    "target": "KEEN",
+    "optimal": 4,
+    "optimalPath": [
+      "FLED",
+      "FEED",
+      "WEED",
+      "WEEN",
+      "KEEN"
+    ]
+  },
+  {
+    "start": "WARD",
+    "target": "GRIG",
+    "optimal": 5,
+    "optimalPath": [
+      "WARD",
+      "WARN",
+      "WAIN",
+      "GAIN",
+      "GRIN",
+      "GRIG"
+    ]
+  },
+  {
+    "start": "RITE",
+    "target": "COWY",
+    "optimal": 5,
+    "optimalPath": [
+      "RITE",
+      "CITE",
+      "COTE",
+      "COPE",
+      "COPY",
+      "COWY"
+    ]
+  },
+  {
+    "start": "SORT",
+    "target": "SADE",
+    "optimal": 4,
+    "optimalPath": [
+      "SORT",
+      "SORI",
+      "SARI",
+      "SADI",
+      "SADE"
+    ]
+  },
+  {
+    "start": "RUMP",
+    "target": "HOLS",
+    "optimal": 5,
+    "optimalPath": [
+      "RUMP",
+      "RUMS",
+      "RUGS",
+      "HUGS",
+      "HOGS",
+      "HOLS"
+    ]
+  },
+  {
+    "start": "PEES",
+    "target": "SOCA",
+    "optimal": 5,
+    "optimalPath": [
+      "PEES",
+      "PEEK",
+      "PECK",
+      "POCK",
+      "SOCK",
+      "SOCA"
+    ]
+  },
+  {
+    "start": "RISE",
+    "target": "SUPS",
+    "optimal": 4,
+    "optimalPath": [
+      "RISE",
+      "RIPE",
+      "RIPS",
+      "SIPS",
+      "SUPS"
+    ]
+  },
+  {
+    "start": "REIS",
+    "target": "BYRE",
+    "optimal": 6,
+    "optimalPath": [
+      "REIS",
+      "RETS",
+      "RETE",
+      "RATE",
+      "BATE",
+      "BARE",
+      "BYRE"
+    ]
+  },
+  {
+    "start": "PICA",
+    "target": "FIRE",
+    "optimal": 3,
+    "optimalPath": [
+      "PICA",
+      "PICE",
+      "FICE",
+      "FIRE"
+    ]
+  },
+  {
+    "start": "FROW",
+    "target": "SINS",
+    "optimal": 5,
+    "optimalPath": [
+      "FROW",
+      "BROW",
+      "BROS",
+      "BIOS",
+      "BINS",
+      "SINS"
+    ]
+  },
+  {
+    "start": "RAIL",
+    "target": "VERT",
+    "optimal": 5,
+    "optimalPath": [
+      "RAIL",
+      "WAIL",
+      "WAIT",
+      "WART",
+      "WERT",
+      "VERT"
+    ]
+  },
+  {
+    "start": "DEEP",
+    "target": "PALE",
+    "optimal": 5,
+    "optimalPath": [
+      "DEEP",
+      "DEET",
+      "DELT",
+      "DELE",
+      "DALE",
+      "PALE"
+    ]
+  },
+  {
+    "start": "BRIS",
+    "target": "MEWS",
+    "optimal": 4,
+    "optimalPath": [
+      "BRIS",
+      "SRIS",
+      "SEIS",
+      "SEWS",
+      "MEWS"
+    ]
+  },
+  {
+    "start": "BANK",
+    "target": "MERL",
+    "optimal": 4,
+    "optimalPath": [
+      "BANK",
+      "BARK",
+      "BERK",
+      "MERK",
+      "MERL"
+    ]
+  },
+  {
+    "start": "LYES",
+    "target": "CANT",
+    "optimal": 5,
+    "optimalPath": [
+      "LYES",
+      "WYES",
+      "WYNS",
+      "WANS",
+      "CANS",
+      "CANT"
+    ]
+  },
+  {
+    "start": "DOSE",
+    "target": "VIER",
+    "optimal": 5,
+    "optimalPath": [
+      "DOSE",
+      "DOSS",
+      "DOES",
+      "DIES",
+      "VIES",
+      "VIER"
+    ]
+  },
+  {
+    "start": "KILO",
+    "target": "RUMS",
+    "optimal": 5,
+    "optimalPath": [
+      "KILO",
+      "KINO",
+      "KINS",
+      "RINS",
+      "RIMS",
+      "RUMS"
+    ]
+  },
+  {
+    "start": "MUST",
+    "target": "CANS",
+    "optimal": 4,
+    "optimalPath": [
+      "MUST",
+      "MAST",
+      "CAST",
+      "CANT",
+      "CANS"
+    ]
+  },
+  {
+    "start": "JUBE",
+    "target": "PUMP",
+    "optimal": 5,
+    "optimalPath": [
+      "JUBE",
+      "TUBE",
+      "TULE",
+      "PULE",
+      "PULP",
+      "PUMP"
+    ]
+  },
+  {
+    "start": "GOOP",
+    "target": "ROES",
+    "optimal": 3,
+    "optimalPath": [
+      "GOOP",
+      "GOOS",
+      "GOES",
+      "ROES"
+    ]
+  },
+  {
+    "start": "SANG",
+    "target": "TOLA",
+    "optimal": 5,
+    "optimalPath": [
+      "SANG",
+      "SANK",
+      "TANK",
+      "TALK",
+      "TALA",
+      "TOLA"
+    ]
+  },
+  {
+    "start": "BEEP",
+    "target": "DINO",
+    "optimal": 5,
+    "optimalPath": [
+      "BEEP",
+      "BEET",
+      "DEET",
+      "DENT",
+      "DINT",
+      "DINO"
+    ]
+  },
+  {
+    "start": "LORD",
+    "target": "KALE",
+    "optimal": 5,
+    "optimalPath": [
+      "LORD",
+      "WORD",
+      "WARD",
+      "WARE",
+      "WALE",
+      "KALE"
+    ]
+  },
+  {
+    "start": "DONE",
+    "target": "VAST",
+    "optimal": 5,
+    "optimalPath": [
+      "DONE",
+      "DOSE",
+      "ROSE",
+      "RASE",
+      "VASE",
+      "VAST"
+    ]
+  },
+  {
+    "start": "BLAB",
+    "target": "HOWS",
+    "optimal": 5,
+    "optimalPath": [
+      "BLAB",
+      "BLOB",
+      "BOOB",
+      "BOOS",
+      "BOWS",
+      "HOWS"
+    ]
+  },
+  {
+    "start": "NEAR",
+    "target": "ARCS",
+    "optimal": 6,
+    "optimalPath": [
+      "NEAR",
+      "TEAR",
+      "TEAS",
+      "TEES",
+      "TRES",
+      "ARES",
+      "ARCS"
+    ]
+  },
+  {
+    "start": "DAGS",
+    "target": "BOCK",
+    "optimal": 4,
+    "optimalPath": [
+      "DAGS",
+      "DOGS",
+      "DOCS",
+      "DOCK",
+      "BOCK"
+    ]
+  },
+  {
+    "start": "TIPS",
+    "target": "LIMY",
+    "optimal": 4,
+    "optimalPath": [
+      "TIPS",
+      "LIPS",
+      "LIPA",
+      "LIMA",
+      "LIMY"
+    ]
+  },
+  {
+    "start": "MUSS",
+    "target": "DOLT",
+    "optimal": 4,
+    "optimalPath": [
+      "MUSS",
+      "MOSS",
+      "MOLS",
+      "DOLS",
+      "DOLT"
+    ]
+  },
+  {
+    "start": "ROLL",
+    "target": "NARK",
+    "optimal": 5,
+    "optimalPath": [
+      "ROLL",
+      "MOLL",
+      "MALL",
+      "MARL",
+      "MARK",
+      "NARK"
+    ]
+  }
+]
