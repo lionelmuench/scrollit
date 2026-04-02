@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Scrollit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Toast container -->
+  <div id="toast-container"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="logo">SCROLLIT</h1>
+    <a href="index.html" class="btn-home" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+        <path
+          d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      </svg>
+    </a>
+  </header>
+
+  <!-- Target word display -->
+  <div class="target-section">
+    <span class="target-label">GET TO</span>
+    <div class="target-word" id="target-word">WORD</div>
+  </div>
+
+  <!-- Scroll wheels + buttons -->
+  <div class="game-area">
+    <div class="wheels-row">
+      <div class="letter-column" data-index="0"></div>
+      <div class="letter-column" data-index="1"></div>
+      <div class="letter-column" data-index="2"></div>
+      <div class="letter-column" data-index="3"></div>
+      <div class="buttons-col">
+        <button class="btn-check" id="checkmark-btn" aria-label="Submit guess">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+        </button>
+        <button class="btn-reset" id="reset-btn" aria-label="Reset wheels">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="1 4 1 10 7 10" />
+            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step counter -->
+  <div class="steps-display">
+    <span class="steps-label">Steps</span>
+    <span class="steps-count" id="steps-count">0</span>
+    <button class="btn-restart-inline" id="restart-btn" aria-label="Restart puzzle">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="1 4 1 10 7 10" />
+        <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Word chain / history -->
+  <div class="chain-section">
+    <div class="chain-track" id="chain-track">
+      <!-- words will be inserted here -->
+    </div>
+  </div>
+
+  <!-- Win overlay -->
+  <div class="overlay" id="win-overlay">
+    <div class="win-card">
+      <div class="win-emoji">🎉</div>
+      <h2 class="win-title">Solved!</h2>
+      <div class="win-stats">
+        <div class="stat-block">
+          <span class="stat-number" id="win-steps">0</span>
+          <span class="stat-label">Your steps</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-block">
+          <span class="stat-number" id="win-optimal">0</span>
+          <span class="stat-label">Best possible</span>
+        </div>
+      </div>
+      <div class="win-chain-label">Your Path</div>
+      <div class="win-chain" id="win-chain"></div>
+      <div class="win-chain-label">(An) Optimal Path</div>
+      <div class="win-chain optimal" id="win-optimal-chain"></div>
+      <div class="win-buttons">
+        <button class="btn-restart" id="btn-restart">Restart</button>
+        <button class="btn-play-again" id="btn-play-again">New Puzzle</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+
+</html>
