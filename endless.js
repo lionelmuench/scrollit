@@ -109,15 +109,12 @@ function endGame(reason) {
     stopTimer();
     timerBar.style.width = '0%';
 
-    // High score
-    const highScore = getHighScore();
-    const newHigh = score > highScore;
-    if (newHigh) setHighScore(score);
+    const stats = recordEndlessRun(score);
 
     // Show overlay
     gameoverTitle.textContent = reason;
     gameoverScore.textContent = score;
-    gameoverHighscore.textContent = newHigh ? score : highScore;
+    gameoverHighscore.textContent = stats.bestScore;
 
     // Build chain
     buildChainInto(gameoverChain, guessHistory);
@@ -125,14 +122,6 @@ function endGame(reason) {
     setTimeout(() => {
         gameoverOverlay.classList.add('active');
     }, 300);
-}
-
-function getHighScore() {
-    return parseInt(localStorage.getItem('scrollit-endless-highscore') || '0', 10);
-}
-
-function setHighScore(val) {
-    localStorage.setItem('scrollit-endless-highscore', val.toString());
 }
 
 // ---------- SCROLL COLUMNS ----------

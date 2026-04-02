@@ -124,11 +124,67 @@ body {
     color: #9ca3af;
 }
 
+.daily-date {
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
 .target-word {
     font-size: 2rem;
     font-weight: 900;
     letter-spacing: 0.22em;
     color: #4f46e5;
+}
+
+.daily-status {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-align: center;
+    line-height: 1.35;
+    min-height: 1.2em;
+}
+
+.daily-help {
+    width: calc(100% - 32px);
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.daily-help summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1a1a2e;
+}
+
+.daily-help summary::-webkit-details-marker {
+    display: none;
+}
+
+.daily-help[open] summary {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.daily-help-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 18px 16px 32px;
+    color: #4b5563;
+    font-size: 0.92rem;
+    line-height: 1.4;
 }
 
 /* ===== GAME AREA ===== */
@@ -460,7 +516,7 @@ body {
 .win-chain.optimal {
     background: #f0fdf4;
     border: 1px solid #bbf7d0;
-    margin-bottom: 24px;
+    margin-bottom: 14px;
 }
 
 .win-chain .chain-word {
@@ -477,6 +533,10 @@ body {
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+
+.overlay-status {
+    margin-bottom: 18px;
 }
 
 .btn-restart {
@@ -516,6 +576,12 @@ body {
     background: #16a34a;
     color: #fff;
     box-shadow: 0 4px 14px rgba(22, 163, 74, 0.3);
+}
+
+@media (max-width: 480px) {
+    .daily-help {
+        width: calc(100% - 24px);
+    }
 }
 
 .btn-play-again:hover {

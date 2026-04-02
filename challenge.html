@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Scrollit</title>
+  <title>Scrollit — Daily Challenge</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
@@ -32,9 +32,21 @@
 
   <!-- Target word display -->
   <div class="target-section">
-    <span class="target-label">GET TO</span>
+    <span class="target-label">Daily Challenge</span>
+    <div class="daily-date" id="puzzle-date">Apr 1, 2026</div>
     <div class="target-word" id="target-word">WORD</div>
+    <div class="daily-status" id="daily-status">A fresh puzzle is ready.</div>
   </div>
+
+  <details class="daily-help">
+    <summary>How to play</summary>
+    <ul class="daily-help-list">
+      <li>Change exactly one letter each turn.</li>
+      <li>Every guess must be a real 4-letter word.</li>
+      <li>You cannot change the same slot twice in a row.</li>
+      <li>Press the check button or hit <code>Enter</code> to submit.</li>
+    </ul>
+  </details>
 
   <!-- Scroll wheels + buttons -->
   <div class="game-area">
@@ -101,13 +113,15 @@
       <div class="win-chain" id="win-chain"></div>
       <div class="win-chain-label">(An) Optimal Path</div>
       <div class="win-chain optimal" id="win-optimal-chain"></div>
+      <div class="daily-status overlay-status" id="win-status"></div>
       <div class="win-buttons">
         <button class="btn-restart" id="btn-restart">Restart</button>
-        <button class="btn-play-again" id="btn-play-again">New Puzzle</button>
+        <button class="btn-play-again" id="btn-play-again">Replay Today</button>
       </div>
     </div>
   </div>
 
+  <script src="app.js"></script>
   <script src="game.js"></script>
 </body>
 

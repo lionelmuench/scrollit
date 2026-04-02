@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="style.css" />
     <style>
         body.home-page {
-            justify-content: center;
+            justify-content: flex-start;
             min-height: 100dvh;
-            padding-bottom: 0;
+            padding: 40px 0;
         }
 
         .home-container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 48px;
+            gap: 28px;
             padding: 0 24px;
             max-width: 400px;
             width: 100%;
@@ -55,6 +55,13 @@
             display: flex;
             flex-direction: column;
             gap: 12px;
+            width: 100%;
+        }
+
+        .home-panels {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
             width: 100%;
         }
 
@@ -136,6 +143,85 @@
             margin-left: auto;
             color: #d1d5db;
         }
+
+        .stats-card,
+        .howto-card {
+            width: 100%;
+            background: #fff;
+            border: 2px solid #e5e7eb;
+            border-radius: 16px;
+            padding: 18px 18px 16px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        .panel-title {
+            font-size: 0.74rem;
+            font-weight: 800;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: #9ca3af;
+            margin-bottom: 14px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px 18px;
+        }
+
+        .stats-grid.single-line {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+
+        .stat-item {
+            min-width: 0;
+        }
+
+        .stat-item.wide {
+            grid-column: 1 / -1;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 1.35rem;
+            font-weight: 900;
+            color: #1a1a2e;
+            line-height: 1.1;
+            margin-bottom: 4px;
+        }
+
+        .stat-copy {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #9ca3af;
+        }
+
+        .howto-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .howto-list li {
+            font-size: 0.92rem;
+            line-height: 1.4;
+            color: #374151;
+        }
+
+        .howto-rule {
+            color: #1a1a2e;
+            font-weight: 700;
+        }
+
+        @media (max-width: 420px) {
+            .stats-grid.single-line {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
     </style>
 </head>
 
@@ -161,7 +247,7 @@
                             points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
                 </div>
-                <span class="mode-name">Challenge</span>
+                <span class="mode-name">Daily Challenge</span>
                 <div class="mode-arrow">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -210,8 +296,70 @@
 
         </nav>
 
+        <section class="home-panels">
+            <section class="stats-card">
+                <h2 class="panel-title">Daily Challenge Stats</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-value" id="daily-total-wins">0</span>
+                        <span class="stat-copy">Wins</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="daily-current-streak">0</span>
+                        <span class="stat-copy">Current streak</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="daily-best-streak">0</span>
+                        <span class="stat-copy">Best streak</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="daily-average-steps">0.0</span>
+                        <span class="stat-copy">Avg. steps</span>
+                    </div>
+                    <div class="stat-item wide">
+                        <span class="stat-value" id="daily-last-solved">Not yet</span>
+                        <span class="stat-copy">Last solved</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats-card">
+                <h2 class="panel-title">Endless Stats</h2>
+                <div class="stats-grid single-line">
+                    <div class="stat-item">
+                        <span class="stat-value" id="endless-best-score">0</span>
+                        <span class="stat-copy">Best</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="endless-last-score">0</span>
+                        <span class="stat-copy">Last run</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="endless-total-runs">0</span>
+                        <span class="stat-copy">Runs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="endless-average-score">0.0</span>
+                        <span class="stat-copy">Avg. score</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="howto-card">
+                <h2 class="panel-title">How To Play</h2>
+                <ul class="howto-list">
+                    <li><span class="howto-rule">Change exactly one letter</span> each turn.</li>
+                    <li><span class="howto-rule">Every guess must be a real 4-letter word.</span></li>
+                    <li><span class="howto-rule">Do not change the same slot twice in a row.</span></li>
+                    <li>Use the wheel columns, then press the check button or hit <code>Enter</code>.</li>
+                </ul>
+            </section>
+        </section>
+
     </div>
 
+    <script src="app.js"></script>
+    <script src="home.js"></script>
 </body>
 
 </html>
