@@ -25,7 +25,6 @@ let gameOver = false;
 // ---------- DOM REFS ----------
 const targetWordEl = document.getElementById('target-word');
 const puzzleDateEl = document.getElementById('puzzle-date');
-const dailyStatusEl = document.getElementById('daily-status');
 const stepsCountEl = document.getElementById('steps-count');
 const chainTrack = document.getElementById('chain-track');
 const winOverlay = document.getElementById('win-overlay');
@@ -36,7 +35,7 @@ const winOptimalChainEl = document.getElementById('win-optimal-chain');
 const winStatusEl = document.getElementById('win-status');
 const checkBtn = document.getElementById('checkmark-btn');
 const resetBtn = document.getElementById('reset-btn');
-const playAgainBtn = document.getElementById('btn-play-again');
+const closeBtn = document.getElementById('btn-close');
 const restartBtn = document.getElementById('btn-restart');
 const restartInlineBtn = document.getElementById('restart-btn');
 const toastContainer = document.getElementById('toast-container');
@@ -59,7 +58,7 @@ const toastContainer = document.getElementById('toast-container');
 })();
 
 // ---------- DAILY PUZZLE ----------
-function startDailyPuzzle() {
+function startDailyPuzzle(showSavedOverlay = true) {
     currentDateKey = getEasternDateKey();
     currentPuzzleIndex = getDailyPuzzleIndex(puzzles.length, currentDateKey);
     currentPuzzle = puzzles[currentPuzzleIndex];
@@ -79,18 +78,21 @@ function startDailyPuzzle() {
     addChainWord(prevWord, true);
     winOverlay.classList.remove('active');
 
-    syncDailyStatus();
     initColumns();
-}
-
-function syncDailyStatus() {
-    const solve = getDailySolve(currentDateKey);
-    if (!solve) {
-        dailyStatusEl.textContent = 'A fresh puzzle is ready.';
-        return;
+    if (showSavedOverlay) {
+        const recordedSolve = getDailySolve(currentDateKey);
+        if (recordedSolve) {
+            setTimeout(() => {
+                showWin({
+                    steps: recordedSolve.steps,
+                    playerPath: Array.isArray(recordedSolve.path) && recordedSolve.path.length
+                        ? recordedSolve.path
+                        : [currentPuzzle.start, currentPuzzle.target],
+                    status: 'Already completed for today.'
+                });
+            }, 120);
+        }
     }
-
-    dailyStatusEl.textContent = `Solved today in ${solve.steps} steps. Replay any time.`;
 }
 
 // ---------- SCROLL COLUMNS ----------
@@ -287,7 +289,7 @@ function submitGuess() {
 
     if (guess === currentPuzzle.target) {
         gameOver = true;
-        setTimeout(showWin, 400);
+        setTimeout(handleSolvedDaily, 400);
     }
 }
 
@@ -351,23 +353,35 @@ function buildChainInto(container, words) {
 }
 
 // ---------- WIN SCREEN ----------
-function showWin() {
-    winStepsEl.textContent = stepCount;
-    winOptimalEl.textContent = currentPuzzle.optimal;
-    buildChainInto(winChainEl, guessHistory);
-    buildChainInto(winOptimalChainEl, currentPuzzle.optimalPath || [currentPuzzle.start, currentPuzzle.target]);
+function showWin(config = {}) {
+    const steps = config.steps ?? stepCount;
+    const playerPath = config.playerPath ?? guessHistory;
+    const status = config.status ?? '';
 
+    winStepsEl.textContent = steps;
+    winOptimalEl.textContent = currentPuzzle.optimal;
+    buildChainInto(winChainEl, playerPath);
+    buildChainInto(winOptimalChainEl, currentPuzzle.optimalPath || [currentPuzzle.start, currentPuzzle.target]);
+    winStatusEl.textContent = status;
+    winOverlay.classList.add('active');
+}
+
+function handleSolvedDaily() {
     const wasRecorded = recordDailySolve(currentDateKey, {
         steps: stepCount,
-        puzzleIndex: currentPuzzleIndex
+        puzzleIndex: currentPuzzleIndex,
+        path: guessHistory
     });
 
-    winStatusEl.textContent = wasRecorded
-        ? 'Recorded in your Daily Challenge stats.'
-        : 'Already recorded for today. Your stats stay the same.';
+    showWin({
+        status: wasRecorded
+            ? 'Recorded in your Daily Challenge stats.'
+            : 'Already completed for today.'
+    });
+}
 
-    syncDailyStatus();
-    winOverlay.classList.add('active');
+function closeWinOverlay() {
+    winOverlay.classList.remove('active');
 }
 
 // ---------- TOAST ----------
@@ -385,15 +399,15 @@ function showToast(message) {
 function wireButtons() {
     checkBtn.addEventListener('click', submitGuess);
     resetBtn.addEventListener('click', revertWheels);
-    playAgainBtn.addEventListener('click', startDailyPuzzle);
-    restartBtn.addEventListener('click', startDailyPuzzle);
-    restartInlineBtn.addEventListener('click', startDailyPuzzle);
+    closeBtn.addEventListener('click', closeWinOverlay);
+    restartBtn.addEventListener('click', () => startDailyPuzzle(false));
+    restartInlineBtn.addEventListener('click', () => startDailyPuzzle(false));
 
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') submitGuess();
         if (event.key === 'Escape') {
             if (winOverlay.classList.contains('active')) {
-                startDailyPuzzle();
+                closeWinOverlay();
             } else {
                 revertWheels();
             }

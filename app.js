@@ -83,6 +83,7 @@ function recordDailySolve(dateKey, solveData) {
     record.solves[dateKey] = {
         steps: solveData.steps,
         puzzleIndex: solveData.puzzleIndex,
+        path: Array.isArray(solveData.path) ? [...solveData.path] : null,
         solvedAt: new Date().toISOString()
     };
     saveJsonStorage(DAILY_STATS_KEY, record);

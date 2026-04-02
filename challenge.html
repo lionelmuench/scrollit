@@ -19,15 +19,17 @@
 
   <!-- Header -->
   <header class="header">
-    <h1 class="logo">SCROLLIT</h1>
-    <a href="index.html" class="btn-home" aria-label="Home">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round">
-        <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-        <path
-          d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-      </svg>
-    </a>
+    <div class="header-brand">
+      <a href="index.html" class="btn-home" aria-label="Home">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+          <path
+            d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+        </svg>
+      </a>
+      <h1 class="logo">SCROLLIT</h1>
+    </div>
   </header>
 
   <!-- Target word display -->
@@ -35,18 +37,7 @@
     <span class="target-label">Daily Challenge</span>
     <div class="daily-date" id="puzzle-date">Apr 1, 2026</div>
     <div class="target-word" id="target-word">WORD</div>
-    <div class="daily-status" id="daily-status">A fresh puzzle is ready.</div>
   </div>
-
-  <details class="daily-help">
-    <summary>How to play</summary>
-    <ul class="daily-help-list">
-      <li>Change exactly one letter each turn.</li>
-      <li>Every guess must be a real 4-letter word.</li>
-      <li>You cannot change the same slot twice in a row.</li>
-      <li>Press the check button or hit <code>Enter</code> to submit.</li>
-    </ul>
-  </details>
 
   <!-- Scroll wheels + buttons -->
   <div class="game-area">
@@ -93,6 +84,19 @@
     </div>
   </div>
 
+  <details class="inline-help">
+    <summary class="inline-help-summary">
+      <span class="inline-help-title">How to play</span>
+      <span class="inline-help-meta">Tap to expand</span>
+    </summary>
+    <ul class="inline-help-list">
+      <li>Change exactly one letter each turn.</li>
+      <li>Every guess must be a real 4-letter word.</li>
+      <li>You cannot change the same slot twice in a row.</li>
+      <li>Reach the target word shown above.</li>
+    </ul>
+  </details>
+
   <!-- Win overlay -->
   <div class="overlay" id="win-overlay">
     <div class="win-card">
@@ -113,10 +117,10 @@
       <div class="win-chain" id="win-chain"></div>
       <div class="win-chain-label">(An) Optimal Path</div>
       <div class="win-chain optimal" id="win-optimal-chain"></div>
-      <div class="daily-status overlay-status" id="win-status"></div>
+      <div class="overlay-status" id="win-status"></div>
       <div class="win-buttons">
         <button class="btn-restart" id="btn-restart">Restart</button>
-        <button class="btn-play-again" id="btn-play-again">Replay Today</button>
+        <button class="btn-play-again" id="btn-close">Close</button>
       </div>
     </div>
   </div>
