@@ -19,15 +19,14 @@ PLAYABLE_WORDS_PATH = Path("wordlist.txt")
 CURATED_WORDS_PATH = Path("common_words.txt")
 OUTPUT_PATH = Path("puzzles.json")
 TOTAL_PUZZLES = 1825
-MIN_STEPS = 3
+MIN_STEPS = 4
 MAX_STEPS = 6
 SEED = 20260401
-STEP_PRIORITY = (4, 5, 3, 6)
+STEP_PRIORITY = (4, 5, 6)
 STEP_WEIGHTS = {
-    4: 0.52,
-    5: 0.28,
-    3: 0.19,
-    6: 0.01,
+    4: 0.40,
+    5: 0.40,
+    6: 0.20,
 }
 
 # Avoid awkward daily prompts while still allowing common intermediate words.
